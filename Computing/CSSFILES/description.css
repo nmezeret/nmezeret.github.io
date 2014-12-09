@@ -1,0 +1,173 @@
+/*Section 1: This, as for every other page (bar the index page) sets the design of the header*/
+#headerimage {
+  position: relative;
+  width:100%;
+}
+
+h1 {
+  position:absolute;
+  top: 1%;
+  left:3%;
+  color: #8D1515;
+  font-size: 40px;
+  padding: 20px;
+  background-color: rgba(1000, 1000, 1000, 0.8);
+}
+/*END OF SECTION 1*/
+
+
+/*Section 2: Design for the main body*/
+body{
+  font-family: 'Glegoo', serif;
+}
+
+article {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+h2, h3 {
+  color: #8D1515;
+}
+
+ol{
+  list-style: none;
+}
+
+footer {
+  text-align: right;
+  clear: both;
+}
+
+/*This part specifies the design for the module links*/
+ul li.modulelist {
+  font: bold 10px;
+  font-family: 'Glegoo', serif;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 20px;
+  background: #fff;
+  cursor: pointer;
+  border: thin solid #8D1515;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  display:list-item;
+  margin-bottom: 5px;
+}
+
+ul li:hover {
+  background: #8D1515;
+  color: #fff;
+  border: thin solid #fff;
+}
+/*END OF SECTION 2*/
+
+
+/*Section 3: This section pertains to the navigation tool*/
+nav{
+  position: absolute;
+  top:7%;
+  right:2%;
+  color: #8D1515;
+  font-family: 'Glegoo', serif;
+  font-size: 25px;
+}
+
+/* This is to ensure the links remain the right color and style even once they've been visited*/
+a:link {
+  text-decoration: none;
+  color: #8D1515;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #8D1515;
+}
+
+a:hover {
+  color: white;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+/*This small piece allows the links outside of boxes to not turn white when hovered over*/
+.documents:hover, #backtotop:hover {
+  color:#8D1515;
+}
+
+/*These specify the characteristics of each navigation box*/
+ul  {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 15px 4px 17px 0;
+  list-style: none;
+}
+
+ul li {
+  font: bold 10px;
+  font-family: 'Glegoo', serif;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 20px;
+  background: #fff;
+  cursor: pointer;
+  border: thin solid #8D1515;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; 
+}
+
+ul li:hover {
+  background: #8D1515;
+  color: #fff;
+  border: thin solid #fff;
+}
+/*END OF SECTION 3*/
+
+
+/*Section 4: Media query, changing page aspect when visited from a smaller device/browser*/
+  @media (max-width: 800px)  {
+
+h1 {
+  top: 0px;
+  font-size: 15px;
+  padding: 10px;
+}
+
+h2, h3 {
+font-size:10px;
+}
+
+p, ol, footer {
+  font-size: 10px;
+}
+
+nav {
+  top: 10px;
+  font-size: 8px;
+  width: 50%;
+  margin-left: 5%;
+}
+
+ul {
+  display:block;
+  float:right;
+  font-size: 10px;
+}
+
+ul li {
+  display: block;
+  padding: 3px 7px;
+}
+}
+/*END OF SECTION 4*/

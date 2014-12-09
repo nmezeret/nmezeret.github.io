@@ -1,0 +1,164 @@
+/*Section 1: This, as for every other page (bar the index page) sets the design of the header*/
+#headerimage {
+  position: relative;
+  width:100%;
+}
+
+h1 {
+  position:absolute;
+  top: 1%;
+  left:3%;
+  color: #8D1515;
+  font-size: 40px;
+  padding: 20px;
+  background-color: rgba(1000, 1000, 1000, 0.8);
+}
+/*END OF SECTION 1*/
+
+
+/*Section 2: Design for the main body*/
+body{
+  font-family: 'Glegoo', serif;
+}
+
+h2, h3 {
+  color:#8D1515;
+}
+
+.container {
+  display:block;
+  width:50%;
+  margin:auto;
+}
+
+.profiles{
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+  border: thin solid black;
+  width: 100%;
+}
+
+/*This is done to alternate the position of photo and text for each staff member*/
+.profilePicturesR{
+  width:40%;
+  float: right;
+}
+.profileTextL{
+  float:left;
+  margin-left: 3px;
+}
+.profilePicturesL{
+  width:40%;
+  float: left;
+}
+.profileTextR{
+  float: right;
+  margin-left: 3px;
+}
+
+ol {
+  list-style: none;
+}
+
+/*This small piece allows the links to the personal websites to not turn white when hovered over*/
+.personal:hover{
+  color:#8D1515;
+}
+/*END OF SECTION 2*/
+
+
+/*Section 3: The rest of this CSS pertains to the navigation tool*/
+nav{
+  position: absolute;
+  top:7%;
+  right:2%;
+  color: #8D1515;
+  font-family: 'Glegoo', serif;
+  font-size: 25px;
+}
+
+/* This is to ensure the links remain the right color and style even once they've been visited*/
+a:link {
+  text-decoration: none;
+  color: #8D1515;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #8D1515;
+}
+
+a:hover {
+  color: white;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+/*These specify the characteristics of each navigation box*/
+ul  {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 15px 4px 17px 0;
+  list-style: none;
+}
+
+li {
+  font: 10px;
+  font-family: 'Glegoo', serif;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 20px;
+  background: #fff;
+  cursor: pointer;
+  border: thin solid #8D1515;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+li:hover {
+  background: #8D1515;
+  color: #fff;
+  border: thin solid #fff;
+}
+/*END OF SECTION 3*/
+
+
+/*Section 4: Media query, changing page aspect when visited from a smaller device/browser*/
+  @media (max-width: 800px)  {
+
+h1 {
+  top: -5px;
+  font-size: 15px;
+  padding: 10px;
+}
+
+nav {
+  top: 20px;
+  right: 3px;
+  font-size: 8px;
+  width: 50%;
+  margin-left: 5%;
+}
+
+ul li {
+  padding: 3px 5px;
+}
+
+.container{
+  font-size: 8px;
+}
+
+.profilePicturesL, .profilePicturesR, .profileTextR, .profileTextL {
+  float: none;
+}
+}
+/*END OF SECTION 4*/

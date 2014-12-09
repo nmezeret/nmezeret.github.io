@@ -1,0 +1,202 @@
+/*Section 1: This section is responsible for styling the bulk of the page, including the background photograph, the logo and the title*/
+#desktopbackground {
+  position: relative;
+  width: 100%;
+  margin:auto;
+}
+
+#mobilebackground{
+  position: relative;
+	display: none;
+}
+
+h1 {
+	position: absolute;
+	top: 0%;
+	right: 2%;
+	color: #8D1515;
+	font-family: 'Glegoo', serif;
+	font-size: 60px;
+	text-align: center;
+	line-height: 95%;
+	padding: 20px;
+	background-color: rgba(1000, 1000, 1000, 0.6);
+}
+
+#logo {
+width:15%;
+position: absolute;
+top: 3%;
+left: 2%;
+}
+/*END OF SECTION 1*/
+
+
+/*Section 2: This section styles the list of links to outside websites*/
+.links {
+	position: absolute;
+	bottom: 21%;
+	right: 3%;
+}
+
+ol {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 15px 4px 17px 0;
+  list-style: none;
+}
+
+ol li {
+  font: bold 10px;
+  font-family: 'Glegoo', serif;
+  margin-right: -4px;
+  margin-bottom:3px;
+  position: relative;
+  padding: 15px 20px;
+  background: #fff;
+  cursor: pointer;
+  border: thin solid #8D1515;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+ol li:hover {
+  background: #8D1515;
+  color: #fff;
+  border: thin solid #fff;
+}
+
+.twitterfeed{
+  position:absolute;
+  bottom:15px;
+  left:15px;
+  width:40%;
+}
+
+.twitter-timeline{
+  height:200px;
+}
+/*END OF SECTION 2*/
+
+
+/*Section 3: This section pertains to the navigation tool*/
+nav{
+  position: absolute;
+  bottom: 40%;
+  left:1%;
+  color: #8D1515;
+  font-family: 'Glegoo', serif;
+  font-size: 25px;
+}
+
+/* This is to ensure the links remain the right color and style even once they've been visited*/
+a:link {
+	text-decoration: none;
+	color: #8D1515;
+}
+a:visited {
+	text-decoration: none;
+	color: #8D1515;
+}
+
+a:hover {
+	color: white;
+	-webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+/*These specify the characteristics of each navigation box*/
+ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 15px 4px 17px 0;
+  list-style: none;
+}
+
+ul li {
+  font: bold 10px;
+  font-family: 'Glegoo', serif;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 20px;
+  background: #fff;
+  cursor: pointer;
+  border: thin solid #8D1515;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+ul li:hover {
+  background: #8D1515;
+  color: #fff;
+  border: thin solid #fff;
+}
+/*END OF SECTION 3*/
+
+
+/* Section 4: Media query, changing page aspect when visited from a smaller device/browser*/
+	@media (max-width: 800px) {
+
+h1 {
+	font-size: 20px;
+}
+
+nav {
+	font-size: 15px;
+	clear:both;
+	width:90%;
+	margin-left:5%;
+}
+
+ol{
+  font-size: 10px;
+  clear:both;
+  width:90%;
+  margin-left:5%;
+}
+
+.links{
+  left:6%;
+  margin-right: 2%;
+}
+
+ul li, ol li {
+  padding: 3px 7px;
+  display: list-item;
+  margin-bottom: 1px;
+}
+
+
+
+#logo {
+  width: 25%;
+}
+
+.twitterfeed{
+  display: none;
+}
+
+#desktopbackground{
+	display: none;
+}
+
+#mobilebackground{
+	display: block;
+	width: 100%;
+}
+}
+/*END OF SECTION 4*/
+
+
