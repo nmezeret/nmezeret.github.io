@@ -15,6 +15,7 @@ h1 {
 }
 
 #bio_text {
+	display:inline-block;
 	float:left;
 }
 
