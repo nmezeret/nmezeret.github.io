@@ -25,4 +25,5 @@ h1 {
 #sites {
 	margin-left: 10%;
 	float: left;
+	clear:both;
 }
