@@ -9,6 +9,20 @@ h1 {
 	text-align: center;
 }
 
+#bio {
+	width:50%;
+	margin:auto;
+}
+
+#bio_text {
+	float:left;
+}
+
+#pp {
+	float:right;
+	width:45%;
+}
+
 #msc, #pinkFloyd {
 	width: 39.5%;
 	margin:3%;
@@ -16,7 +30,6 @@ h1 {
 
 
 #sites {
-	margin-left: 5%;
-	float: left;
+	margin:auto;
 	clear:both;
 }
