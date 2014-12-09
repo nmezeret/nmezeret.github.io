@@ -14,23 +14,28 @@ h1 {
 	margin:auto;
 }
 
-#bio_text {
-	display:inline-block;
-	float:left;
+p{
+	text-align: center;
+}
+
+a {
+	text-align: center;
+	color: black;
 }
 
 #pp {
-	float:right;
-	width:45%;
+	width:40%;
+	margin-left:30%;
 }
 
 #msc, #pinkFloyd {
-	width: 39.5%;
-	margin:3%;
+	width: 70%;
+	margin:5% 15%;
+}
+
+.thumbnails {
+	width:70%;
+	margin-left: 15%;
 }
 
 
-#sites {
-	margin:auto;
-	clear:both;
-}
