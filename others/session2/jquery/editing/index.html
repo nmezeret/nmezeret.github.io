@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Example</title>
+    <script src="//code.jquery.com/jquery-1.11.1.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Help</a>
+    </nav>
+    <section>
+        <p>Some text
+        <a href="http://www.jquery.com">A link to jQuery</a></p>
+    </section>
+    <script>
+    $(document).ready(function(){
+        var html = $("section p:first").html();
+        console.log(html);
+        $("section p:first").html("<p>The link has gone!</p>");
+    });
+    </script>
+</body>
+</html>

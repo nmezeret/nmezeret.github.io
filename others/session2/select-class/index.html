@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript - Select by Class</title>
+</head>
+<body>
+    <nav id="main_nav">
+        <a class="centre" href="#">Home</a>
+        <a class="centre" href="#">About</a>
+    </nav>
+    <section>
+        <p>A paragraph</p>
+    </section>
+
+    <script>
+        var nav = document.getElementById("main_nav");
+        console.log(nav);
+
+        var centred = document.getElementsByClassName("centre");
+        for(var i = 0; i < centred.length; i++) {
+            console.log(centred[i]);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript - Select by CSS selector</title>
+</head>
+<body>
+    <nav id="main_nav">
+        <a class="centre" href="#">Home</a>
+        <a class="centre" href="#">About</a>
+    </nav>
+    <section>
+        <p>A paragraph</p>
+    </section>
+
+    <script>
+        var nav = document.querySelector("#main_nav");
+        console.log(nav);
+
+        var centred = document.querySelectorAll(".centre");
+        for(var i = 0; i < centred.length; i++) {
+            console.log(centred[i]);
+        }
+
+        var p = document.querySelectorAll("p");
+        for(var i = 0; i < p.length; i++) {
+            console.log(p[i]);
+        }
+    </script>
+</body>
+</html>

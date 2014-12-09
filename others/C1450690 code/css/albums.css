@@ -1,0 +1,179 @@
+/*For pages with a lighter background, the color scheme is inverted; this is what the selectors using the 'black' class are for*/
+
+/*This bit of CSS set us the background, the font, and the header aspect, for each of the different album pages*/
+
+body {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+}
+
+body.black {
+  color:black;
+}
+
+#closeButton{
+	width: 3%;
+	position: absolute;
+	top:20px;
+	left:20px;
+    cursor:pointer;
+}
+
+body#piper {
+	background-image: url("backgrounds/piperbg.jpg");
+}
+body#saucer {
+	background-image: url("backgrounds/saucerbg.jpg");
+}
+body#more {
+	background-image: url("backgrounds/morebg.jpg");
+}
+body#umma {
+	background-image: url("backgrounds/ummabg.jpg");
+}
+body#atom {
+	background-image: url("backgrounds/atombg.jpg");
+}
+body#meddle {
+	background-image: url("backgrounds/meddlebg.jpg");
+}
+body#clouds {
+	background-image: url("backgrounds/cloudsbg.jpg");
+}
+body#dark {
+	background-image: url("backgrounds/darkbg.jpg");
+}
+body#wish {
+	background-image: url("backgrounds/wishbg.jpg");
+}
+body#animals {
+	background-image: url("backgrounds/animalsbg.jpg");
+}
+body#wall {
+	background-image: url("backgrounds/wallbg.jpg");
+}
+body#final {
+	background-image: url("backgrounds/finalbg.jpg");
+}
+body#lapse {
+	background-image: url("backgrounds/lapsebg.jpg");
+}
+body#bell {
+	background-image: url("backgrounds/bellbg.jpg");
+}
+body#river {
+	background-image: url("backgrounds/riverbg.jpg");
+}
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+a {
+	color: white;
+}
+a:visited {
+	color:white;
+}
+a.black {
+	color: black;
+}
+a.black:visited {
+	color:black;
+}
+
+
+/*The following two selectors regulate the aspect of the two boxes which will contain information, as well as the table format*/
+#wikiContent {
+	width: 45%;
+	height: 500px;
+	margin: 1% 1% 0% 2.5%;
+	float: left;
+	position:relative;	
+}
+
+#lastfm {
+	width: 45%;
+	height: 500px;
+	margin: 1% 2.5% 0% 1%;
+	float: right;
+	text-align: right;
+	position:relative;
+}
+
+table{
+	width:100%;
+}
+th {
+	border-bottom: 2px white solid;
+}
+th.black {
+	border-color: black;
+}
+td {
+	padding-top: 10px;
+}
+
+.apiNames{
+	display: none;
+}
+
+/*This piece of code is for the display of the text inside of the boxes, as well as the scrolling inside the div.*/
+.scroll, .content {
+	height: 490px;
+	padding: 10px 20px 1px 20px;
+	background: rgba(0,0,0,0.5);
+	position: relative;
+	z-index: 100;
+	overflow:auto;
+}
+
+.scroll.black, .content.black {
+	background: rgba(255,255,255,0.7);
+}
+
+
+/*Here is a media query to adapt the page to mobile devices*/
+@media screen and (max-width: 768px) {
+
+body#piper, body#saucer, body#more, body#umma, body#atom, body#meddle, body#clouds, body#dark, 
+body#wish, body#animals, body#wall, body#final, body#lapse, body#bell, body#river {
+	background-image: url();
+}
+
+h1 {
+	font-size: 20px;
+	color: black
+}
+
+.scroll, .content, #wikiContent, #lastfm {
+	height: auto;
+	font-size: 13px;
+}
+
+#wikiContent {
+	display: block;
+	margin: auto;
+	float:none;
+	width:90%;
+	padding-bottom: 20px;
+}
+
+#lastfm {
+	display: block;
+	margin: auto;
+	float:none;
+	width:90%;
+}
+
+}
+
+
+
+
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript - Events - bubbling</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="main_header">
+        <h1>Sample Page</h1>
+    </header>
+    <section>
+        <p>Here's some text</p>
+    </section>
+    <footer>
+        <small>Footer text</small>
+    </footer>
+
+    <script>
+        var output_element = function() {
+            console.log(this);
+        }
+
+        var header = document.getElementById("main_header");
+        header.addEventListener('click', output_element);
+
+        var h1 = document.querySelector("header h1");
+        h1.addEventListener('click', output_element);
+    </script>
+</body>
+</html>

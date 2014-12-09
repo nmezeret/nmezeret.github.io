@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Example</title>
+    <script src="//code.jquery.com/jquery-1.11.1.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Current location of the ISS</h1>
+        <p>As of <span id="date"></span> the ISS was located at <span id="lat"></span> degrees latitude, <span id="lon"></span> degrees longitude. 
+        <input type="button" id="refresh" value="Refresh Information"></p>
+
+        <h1>When will it next pass overhead?</h1>
+        <form id="location_form">
+            <label for="lat_input"> Enter your latitude (-80 to 80):
+                <input type="text" id="lat_input" pattern="(-*\d{1,3}\.\d+)">
+            </label>
+            <label for="lon_input"> Enter your longitude (-180 to 180):
+                <input type="text" id="lon_input" pattern="(-*\d{1,3}\.\d+)">
+            </label>
+            <button id="submit_lat_lon">Submit</button>
+        </form>
+        <div id="next_pass"></div>
+    </div>
+    <script>
+$(document).ready(function(){
+
+    var do_error = function(location, message) {
+        $(location).html("<p>" + message + "</p>");
+    }
+
+    $("#location_form").submit(function(event) {
+        event.preventDefault();
+        update_pass_location();
+    });
+
+    var create_pass_table = function(pass_data) {
+        var table = $("<table><tr><th>Pass</th><th>Time</th><th>Duration</th></tr></table>");
+        for(var i = 0; i < pass_data.length; i++) {
+            var d = new Date();
+            d.setTime(pass_data[i].risetime * 1000);
+            var html_string = ""
+            html_string += "<tr><td>" + i + "</td><td>" + d.toLocaleString() +  "</td><td>" + pass_data[i].duration + " seconds</td></tr>";
+            table.append(html_string);
+        }
+        $("#next_pass").append("The ISS will be overhead at:");
+        $("#next_pass").append(table);
+    }
+
+    var update_pass_location = function() {
+        console.log("update clicked")
+        var lat = $("#lat_input").val();
+        var lon = $("#lon_input").val();
+        if(lat < -80 || lat > 80 || lon < -180 || lon > 180) {
+            do_error("#next_pass", "ERROR: Latitude must be between -80 and 80, Longitude must be between -180 and 180");
+        } else {
+            $.ajax({
+                url: "http://api.open-notify.org/iss-pass.json",
+                data: {
+                    lat: lat,
+                    lon: lon
+                },
+                dataType: "jsonp",
+                success: function(response){
+                    console.log(response);
+                    create_pass_table(response.response);
+                }, 
+                error: function(xhr, status, error){
+                    console.log(status);
+                    console.log(error);
+                }
+            });            
+        }
+    }
+
+    var update_current_position = function(){
+        $.ajax({
+            url: "http://api.open-notify.org/iss-now.json",
+            data: {},
+            dataType: "jsonp",
+            success: function(response){
+                console.log(response);
+                var d = new Date();
+                d.setTime(response.timestamp * 1000);
+                $("#date").text(d.toLocaleString());
+                $("#lat").text(response.iss_position.latitude);
+                $("#lon").text(response.iss_position.longitude);
+            }, 
+            error: function(xhr, status, error){
+                console.log(status);
+                console.log(error);
+            }
+        });        
+    }
+
+    $("#refresh").click(function(){
+        update_current_position();
+    })
+    update_current_position();
+
+
+
+});
+    </script>
+</body>
+</html>
+

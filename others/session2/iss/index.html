@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>International Space Station</title>
+    <script src="//code.jquery.com/jquery-1.11.1.js"></script>
+</head>
+<body>
+    <section>
+        <h1>Current Location of the ISS</h1>
+        <p>At <span id="date"></span> the ISS was at <span id="lat"></span> degrees latitude and <span id="lon"></span> degrees longitude <input type="button" id="refresh" value="Refresh Information"></p>
+    </section>
+
+    <section>
+        <form id="location_form">
+            <label for="lat_input"> Enter your latitude:
+                <input type="text" id="lat_input">
+            </label>
+            <label for="lon_input"> Enter your longitude:
+                <input type="text" id="lon_input">
+            </label>
+            <button id="submit_lat_lon">Submit</button>
+        </form>
+        <h1>Next Pass Times for ISS</h1>
+        <p>
+            <table id="pass_times">
+            </table>
+        </p>
+    </section>
+    
+    <script>
+    $(document).ready(function(){
+
+        var update_iss_location = function() {
+            $.ajax({
+                url: "http://api.open-notify.org/iss-now.json",
+                data: {},
+                dataType: "jsonp",
+                success: function(response) {
+                    console.log(response);
+
+                    var d = new Date();
+                    d.setTime(response.timestamp * 1000);
+
+                    $("#date").text(d);
+                    $("#lat").text(response.iss_position.latitude);
+                    $("#lon").text(response.iss_position.longitude);
+                },
+                error: function(xhr, status, error) {
+                    console.log(status);
+                    console.log(error);
+                }
+            });            
+        }
+
+        var get_iss_pass_times = function() {
+
+            var lat = $("#lat_input").val();
+            var lon = $("#lon_input").val();
+
+            $.ajax({
+                url: "http://api.open-notify.org/iss-pass.json",
+                data: {
+                    lat: lat,
+                    lon: lon
+                },
+                dataType: "jsonp",
+                success: function(response) {
+
+                    var table = $("#pass_times");
+                    table.html("<tr><th>Time</th><th>Duration</th></tr>");
+
+                    pass_data = response.response;
+                    for(var i = 0; i < pass_data.length; i++) {
+                        var data = pass_data[i];
+
+                        var d = new Date();
+                        d.setTime(data.risetime * 1000);
+                        var htmlString = "<tr><td>" + d + "</td><td>" + data.duration + "</td></tr>";
+
+                        table.append(htmlString);
+                    }
+                },
+                error: function(xhr, status, error) {
+                    console.log(status);
+                    console.log(error);
+                }
+            });            
+        }
+
+        $('#refresh').click(function(){
+            update_iss_location();
+        });
+
+        $("#location_form").submit(function(event) {
+            event.preventDefault();
+            get_iss_pass_times();
+        });
+
+        update_iss_location();
+
+    });
+    </script>
+</body>
+</html>

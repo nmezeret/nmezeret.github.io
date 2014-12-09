@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Example</title>
+    <script src="//code.jquery.com/jquery-1.11.1.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Some books concerning Dickens:</h1>
+        <ul id="booklist">
+            
+        </ul>
+    </div>
+    <script>
+$(document).ready(function(){
+
+    var addBooksToPage = function(response) {
+        console.log(response);
+        for(var i = 0; i < response.items.length; i++) {
+
+            var book = response.items[i];
+            
+            
+            var title = "untitled";
+            if(book.volumeInfo.title) {
+                title = book.volumeInfo.title;
+            }
+
+            var author = "";
+            if(book.volumeInfo.authors) {
+                for(var j = 0; j < book.volumeInfo.authors.length; j++) {
+                    author += " " + book.volumeInfo.authors[j];
+                    if(j > 0 && j < book.volumeInfo.authors.length-1) {
+                        author += " and";
+                    }
+                }
+            }
+            if(author.length === 0) {
+                author = "unknown";
+            }
+
+            $("#booklist").append("<li>" + title + " by " + author + "</li>");
+        }
+    }
+
+    $.ajax({
+        url: "https://www.googleapis.com/books/v1/volumes",
+        data: {q: "Dickens", maxResults: 40},
+        
+        success: function(response){
+            addBooksToPage(response);
+        }, 
+        error: function(xhr, status, error){
+            console.log(status);
+            console.log(error);
+        }
+    });
+});
+    </script>
+</body>
+</html>
+

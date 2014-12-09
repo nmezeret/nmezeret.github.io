@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript - innerHTML</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section>
+        <p class="centre">A paragraph</p>
+        <p class="centre">Another paragraph</p>
+    </section>
+
+    <script>
+        var paragraphs = document.getElementsByTagName("p");
+        for(var i = 0; i < paragraphs.length; i++) {
+            console.log(paragraphs[i].innerHTML);
+        }
+    </script>
+</body>
+</html>

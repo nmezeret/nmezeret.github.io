@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Example</title>
+    <script src="//code.jquery.com/jquery-1.11.1.js"></script>
+</head>
+<body>
+    <div>
+        <p>As of <span id="date"></span> the ISS was located at <span id="lat"></span> degrees latitude, <span id="lon"></span> degrees longitude</p>
+        <input type="button" id="refresh" value="Refresh Information">
+    </div>
+    <script>
+$(document).ready(function(){
+
+    var update_page = function(){
+        $.ajax({
+            url: "http://api.open-notify.org/iss-now.json",
+            data: {},
+            dataType: "jsonp",
+            success: function(response){
+                console.log(response);
+                var d = new Date();
+                d.setTime(response.timestamp * 1000);
+                $("#date").text(d.toLocaleString());
+                $("#lat").text(response.iss_position.latitude);
+                $("#lon").text(response.iss_position.longitude);
+            }, 
+            error: function(xhr, status, error){
+                console.log(status);
+                console.log(error);
+            }
+        });        
+    }
+
+    $("#refresh").click(function(){
+        update_page();
+    })
+    update_page();
+
+});
+    </script>
+</body>
+</html>
+

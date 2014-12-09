@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form>
+        <div id="text-field-example">
+            <fieldset>
+                <legend>User details</legend>
+                <p><label for="name_field">Name: 
+                    <input type="text"  id="name_field">
+                </label></p>
+                <p><label for="email_field">E-mail: 
+                    <input type="email"  id="email_field">
+                </label></p>
+                <p><label for="url_field">URL: 
+                    <input type="url"  id="url_field">
+                </label></p>
+                <p><label for="password_field">Password: 
+                    <input type="password"  id="password_field">
+                </label></p>
+            </fieldset>
+        </div>
+
+        <div id="checkbox-example">
+            <fieldset>
+                <legend>Contact details</legend>
+                <p>How may we contact you?</p>
+                <p><label for="email_contact">via Email: <input type="checkbox" id="email_contact" checked></label></p>
+                <p><label for="phone_contact">via Phone:<input type="checkbox" id="phone_contact" checked></label></p>
+                <p><label for="pigeon_contact">via Carrier Pigeon:<input type="checkbox" id="pigeon_contact"></label></p>
+            </fieldset>
+        </div>
+
+        <div id="radio-example">
+            <fieldset>
+                <legend>Language Preference</legend>
+                <p>Would you like to be contacted in:</p>
+                <p>
+                    <label for="english_choice">
+                        English <input type="radio" name="language" id="english_choice" >
+                    </label>
+                </p>
+                <p>
+                    <label for="welsh_choice">
+                        Welsh <input type="radio" name="language" id="welsh_choice" >
+                    </label>
+                </p>                
+            </fieldset>
+        </div>
+
+        <div id="select-example">
+            <fieldset>
+                <legend>Primary Interest</legend>
+                <label for="interest_select">What is your main interest?
+                    <select id="interest_select">
+                        <optgroup label="Web">
+                            <option value="html">HTML</option>
+                            <option value="css">CSS</option>
+                            <option value="js">JavaScript</option>
+                        </optgroup>
+                        <optgroup label="Desktop">
+                            <option value="java">Java</option>
+                            <option value="c">C</option>
+                            <option value="python">Python</option>
+                        </optgroup>
+                    </select>
+                </label>
+            </fieldset>
+        </div>
+
+        <div id="datalist-example">
+            <fieldset>
+                <legend>Favourite Colour</legend>
+                <label for="colour_choice">What is your favourite colour?
+                    <input type="text" id="colour_choice" list="colours">
+                    <datalist id="languages">
+                        <option>Red</option>
+                        <option>Orange</option>
+                        <option>Yellow</option> 
+                        <option>Green</option>
+                        <option>Blue</option>
+                        <option>Purple</option>
+                        <option>Black</option>
+                    </datalist>
+                </label>
+            </fieldset>
+        </div>
+
+        <div id="button-button-example">
+            <button>Click Me!</button>
+        </div>
+        <div id="input-button-example">
+            <input type="button" value="Click Me!">
+        </div>        
+    </form>
+</body>
+</html>

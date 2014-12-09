@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript - Events - click</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="red" id="main_header">
+        <h1>Sample Page</h1>
+    </header>
+    <section>
+        <p>Here's some text</p>
+    </section>
+    <footer>
+        <small>Footer text</small>
+    </footer>
+
+    <script>
+        var change_class = function() {
+            if(this.className === "red") {
+                this.className = "green";
+            } else if(this.className === "green") {
+                this.className = "red";
+            }
+        }
+
+        var header = document.getElementById("main_header");
+        header.addEventListener('click', change_class);
+    </script>
+</body>
+</html>

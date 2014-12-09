@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript - innerHTML</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section>
+        <p class="centre">A paragraph</p>
+        <p class="centre">Another paragraph</p>
+    </section>
+
+    <script>
+        var body = document.getElementsByTagName("body")[0];
+        body.innerHTML = "<h1>It Disappeared!</h1>"
+    </script>
+</body>
+</html>

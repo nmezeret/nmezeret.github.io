@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript - Modify Attributes</title>
+</head>
+<body>
+    <nav id="main_nav">
+        <a class="centre" href="#">Home</a>
+        <a class="centre" href="#">About</a>
+    </nav>
+    <section>
+        <p>A paragraph</p>
+        <img id="my_img" src="http://lorempixel.com/400/200/sports">
+    </section>
+
+    <script>
+        var img = document.getElementById("my_img");
+        img.src = "http://lorempixel.com/400/200/food";
+    </script>
+</body>
+</html>
