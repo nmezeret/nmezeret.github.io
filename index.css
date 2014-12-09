@@ -9,19 +9,11 @@ h1 {
 	text-align: center;
 }
 
-#msc{
+#msc, #pinkFloyd {
 	width: 39.5%;
-	margin: 0px 7%;
+	margin:3%;
 }
 
-#pinkFloyd {
-	width: 39.5%;
-	margin-right:7%;
-}
-
-.thumbnails {
-	width:40%;
-}
 
 #sites {
 	margin-left: 5%;
