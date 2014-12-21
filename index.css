@@ -38,4 +38,18 @@ a {
 	margin-left: 15%;
 }
 
+#hover {
+	display:none;
+	position: absolute;
+}
+
+#hover:hover{
+	background-color: black;
+	opacity:50%;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
 
