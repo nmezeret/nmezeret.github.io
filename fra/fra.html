@@ -13,15 +13,19 @@
 			font-size:12px;
 		}
 
-		h1, form {
+		h1, #forms {
 			text-align: center;
 		}
 
-/*		form {
-			display: inline;
-			margin:auto;
+		#subtitle {
+			font-size: 12px;
 		}
-*/
+
+
+		form {
+			display: inline-block;
+		}
+
 		.axis path, .axis line {
 			fill:none;
 			stroke:black;
@@ -30,29 +34,29 @@
 	</style>
 </head>
 <body>
-	<h1>FOOTBALL RELATED ARRESTS PER CLUB AND PER SEASON</h1>
-	<form>
-		<label for="league_select">
-			Select Competition:
-			<select id="league_select">
-				<option value="prem">Premier League</option>
-				<option value="champ">Championship</option>
-				<option value="lone">League One</option>
-				<option value="ltwo">League Two</option>
-			</select>
-		</label>
-	</form>
-	<form>
-		<label for="season_select">
-			Select Season:
-			<select id="season_select">
-				<option value="1314">2013/14</option>
-				<option value="1213">2012/13</option>
-				<option value="1112">2011/12</option>
-				<option value="1011">2010/11</option>
-			</select>
-		</label>
-	</form>
+	<h1>FOOTBALL RELATED ARRESTS<span id='subtitle'><br>PER CLUB AND PER SEASON</span></h1>
+	<div id='forms'>
+		<form>
+			<label for="league_select">
+				<select id="league_select">
+					<option value="prem">Premier League</option>
+					<option value="champ">Championship</option>
+					<option value="lone">League One</option>
+					<option value="ltwo">League Two</option>
+				</select>
+			</label>
+		</form>
+		<form>
+			<label for="season_select">
+				<select id="season_select">
+					<option value="1314">2013/14</option>
+					<option value="1213">2012/13</option>
+					<option value="1112">2011/12</option>
+					<option value="1011">2010/11</option>
+				</select>
+			</label>
+		</form>
+	</div>
 	<div id="vis"></div>
 
 	<script>
@@ -88,11 +92,11 @@
 		var height = document.getElementById("vis").clientHeight;
 
 		width=width*0.95;
-		height=height*0.95;
+		height=height*0.90;
 
 		var padding = {
-			top: 20,
-			bottom: 80,
+			top: 100,
+			bottom: 20,
 			left: 100,
 			right: 40
 		}
@@ -107,7 +111,8 @@
 						.domain([0, 200]);
 
 		var colour_scale = d3.scale.quantile()
-							 .range( ["#1a9850", "#66bd63", "#a6d96a", "#d9ef8b", "#ffffbf", "#fee08b", "#fdae61", "#f46d43", "#d73027"]);
+							 .range(colorbrewer.YlOrRd[6]);
+		//["#1a9850", "#66bd63", "#a6d96a", "#d9ef8b", "#ffffbf", "#fee08b", "#fdae61", "#f46d43", "#d73027"]
 
 		var x_axis = d3.svg.axis()
 						.scale(x_scale)
@@ -120,12 +125,13 @@
 		
 		var svg = d3.select('#vis')
 			.append('svg')
-			.attr('height', height+padding.top+padding.bottom)
+			.attr('height', height+padding.top)
 			.attr('width', width+padding.left+padding.right);
 
 		svg.append('g')
 		   .attr('class','x axis')
 		   .attr('transform', 'translate(0,'+ (height) +')');
+
 
 		svg.append('g')
 		   .attr('class','y axis')
@@ -152,7 +158,7 @@
 
 				var max_value = d3.max(data, function(d) {return +d.Arrests;});
 				// y_scale.domain([0, max_value]);
-				colour_scale.domain([max_value, 0]);
+				colour_scale.domain([175, 0]);
 
 				var bars = d3.select('svg')
 							 .selectAll('.bar')
@@ -176,13 +182,20 @@
 					.remove();
 
 				svg.select('.x.axis')
-				   .call(x_axis);
+				   .transition()
+				   .duration(1000)
+				   .call(x_axis)
+				   .selectAll("text")
+				               .style("text-anchor", "end")
+				               .attr("dx", "-.8em")
+				               .attr("dy", ".15em")
+				               .attr("transform", function(d) {
+				                   return "rotate(-65)" 
+				                   });
 
 				svg.select('.y.axis')
 				   .call(y_axis);
 
-				// svg.selectAll('.tick')
-				//    .attr("transform", "rotate(-20)")
 
 
 			}); 
