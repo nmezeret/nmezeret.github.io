@@ -41,7 +41,7 @@
 		            Math.sin(lonDiff/2) * Math.sin(lonDiff/2);
 		    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 		    var d = R * c;
-		    return Math.round(Math.abs(d)) + " km"
+		    return Math.round(d*100)/100 + " km"
 		};
 
 		function set_address(){
