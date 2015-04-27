@@ -4,8 +4,27 @@
 	<meta charset="UTF-8">
 	<title>FOURSQ AMENITIES</title>
 	<script src='leaflet.js'></script>
-	<link rel="stylesheet" type="text/css" href="four.css">
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+	<style>
+	form {
+		text-align: center;
+	}
+
+	table {
+		width:100%;
+	}
+
+	th {
+		width: 25%;
+	}
+
+	td {
+		border: solid black 1px;
+		text-align: center;
+	}
+
+	</style>
 </head>
 <body>
 	<form id="address">
@@ -45,12 +64,6 @@
 		};
 
 		function set_address(){
-				// map = L.map('map').setView(new L.LatLng(52.287681, -1.540286), 14);
-
-				//     L.tileLayer('https://{s}.tiles.mapbox.com/v3/nmezeret.ka5d117i/{z}/{x}/{y}.png', {
-				//         attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-				//         maxZoom: 40
-				//     }).addTo(map);
 
 				$.ajax({
 				    url:'http://maps.googleapis.com/maps/api/geocode/json?address='+address+'&sensor=false',
