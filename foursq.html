@@ -80,6 +80,7 @@
 				        for (i=0; i<10;i++) {
 				            venue_lat = venues[i].venue.location.lat
 				            venue_lng = venues[i].venue.location.lng
+				            distance = get_distance(venue_lat, venue_lng, lat, lng)
 				            $('#coffee').append("<p>"+venues[i].venue.name+" - " + distance + "</p>")
 				        }
 				    },
@@ -98,6 +99,7 @@
 				        for (i=0; i<10;i++) {
 				            venue_lat = venues[i].venue.location.lat
 				            venue_lng = venues[i].venue.location.lng
+				            distance = get_distance(venue_lat, venue_lng, lat, lng)
 				            $('#food').append("<p>"+venues[i].venue.name+" - " + distance + "</p>")
 				        }
 				    },
@@ -116,6 +118,7 @@
 				        for (i=0; i<10;i++) {
 				            venue_lat = venues[i].venue.location.lat
 				            venue_lng = venues[i].venue.location.lng
+				            distance = get_distance(venue_lat, venue_lng, lat, lng)
 				            $('#shops').append("<p>"+venues[i].venue.name+" - " + distance + "</p>")
 				        }
 				    },
