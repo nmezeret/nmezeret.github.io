@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FOURSQ AMENITIES</title>
+	<script src='leaflet.js'></script>
+	<link rel="stylesheet" type="text/css" href="four.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+</head>
+<body>
+	<form id="address">
+		<label for="hno">House Number: 
+			<input id='hno' type='text'>
+		</label>
+		<label for="postcode">Postcode:  
+			<input id='postcode' type='text'>
+		</label>
+		<button type='submit'>Search amenities</button>
+	</form>
+	
+	<br>
+
+	<table>
+		<tr><th>COFFEE</th><th>FOOD</th><th>SHOPS</th><th>DRINKS</th></tr>
+		<tr><td id='coffee'></td><td id='food'></td><td id='shops'></td><td id='drinks'></td></tr>
+	</table>
+
+	<div id='map'></div>
+
+	<script>
+		address = null
+
+		function get_distance(latA, lngA, latB, lngB) {
+		    var R = 6371; // radius of the earth in km
+		    var lat1 = latA * Math.PI / 180; // * Math.Pi / 180 converts the degrees to radians
+		    var lat2 = latB * Math.PI / 180;
+		    var latDiff = (latB-latA) * Math.PI / 180;
+		    var lonDiff = (lngB-lngA) * Math.PI / 180;
+		    var a = Math.sin(latDiff/2) * Math.sin(latDiff/2) +
+		            Math.cos(lat1) * Math.cos(lat2) *
+		            Math.sin(lonDiff/2) * Math.sin(lonDiff/2);
+		    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+		    var d = R * c;
+		    return Math.round(Math.abs(d)) + " km"
+		};
+
+		function set_address(){
+				// map = L.map('map').setView(new L.LatLng(52.287681, -1.540286), 14);
+
+				//     L.tileLayer('https://{s}.tiles.mapbox.com/v3/nmezeret.ka5d117i/{z}/{x}/{y}.png', {
+				//         attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+				//         maxZoom: 40
+				//     }).addTo(map);
+
+				$.ajax({
+				    url:'http://maps.googleapis.com/maps/api/geocode/json?address='+address+'&sensor=false',
+				    success:function(response){
+				        lat = response.results[0].geometry.location.lat
+				        lng = response.results[0].geometry.location.lng
+				    },
+				    error: function(xhr, error, status){
+				        console.log(xhr);
+				        console.log(error);
+				        console.log(status);
+				    }      
+				});
+
+				
+		};
+
+
+		function get(){
+				$.ajax({
+				    url: 'http://api.foursquare.com/v2/venues/explore?client_id=HUMAASLNUTESPU1EZ2VVEMQGC0FPWP4UPYRX2B4ORYSLMK1T&client_secret=VOERBINEUJAGOS4EKR3RA3DQP0Q40AFK3ELWGPICETN0HO0B&v=20130815&ll='+lat+','+lng+'&radius=3000&section=coffee',
+				    dataType: 'jsonp',
+				    success:function(response){
+				    	console.log(response);
+				    	$('#coffee').empty();
+				        var venues = response.response.groups[0].items
+				        for (i=0; i<10;i++) {
+				            venue_lat = venues[i].venue.location.lat
+				            venue_lng = venues[i].venue.location.lng
+				            $('#coffee').append("<p>"+venues[i].venue.name+" - " + distance + "</p>")
+				        }
+				    },
+				    error: function(xhr, error, status){
+				        console.log(error)
+				    }
+				});
+
+				$.ajax({
+				    url: 'http://api.foursquare.com/v2/venues/explore?client_id=HUMAASLNUTESPU1EZ2VVEMQGC0FPWP4UPYRX2B4ORYSLMK1T&client_secret=VOERBINEUJAGOS4EKR3RA3DQP0Q40AFK3ELWGPICETN0HO0B&v=20130815&ll='+lat+','+lng+'&radius=3000&section=food',
+				    dataType: 'jsonp',
+				    success:function(response){
+				    	console.log(response);
+				    	$('#food').empty();
+				        var venues = response.response.groups[0].items
+				        for (i=0; i<10;i++) {
+				            venue_lat = venues[i].venue.location.lat
+				            venue_lng = venues[i].venue.location.lng
+				            $('#food').append("<p>"+venues[i].venue.name+" - " + distance + "</p>")
+				        }
+				    },
+				    error: function(xhr, error, status){
+				        console.log(error)
+				    }
+				});
+
+				$.ajax({
+				    url: 'http://api.foursquare.com/v2/venues/explore?client_id=HUMAASLNUTESPU1EZ2VVEMQGC0FPWP4UPYRX2B4ORYSLMK1T&client_secret=VOERBINEUJAGOS4EKR3RA3DQP0Q40AFK3ELWGPICETN0HO0B&v=20130815&ll='+lat+','+lng+'&radius=3000&section=shops',
+				    dataType: 'jsonp',
+				    success:function(response){
+				    	console.log(response);
+				    	$('#shops').empty();
+				        var venues = response.response.groups[0].items
+				        for (i=0; i<10;i++) {
+				            venue_lat = venues[i].venue.location.lat
+				            venue_lng = venues[i].venue.location.lng
+				            $('#shops').append("<p>"+venues[i].venue.name+" - " + distance + "</p>")
+				        }
+				    },
+				    error: function(xhr, error, status){
+				        console.log(error)
+				    }
+				});
+
+				$.ajax({
+				    url: 'http://api.foursquare.com/v2/venues/explore?client_id=HUMAASLNUTESPU1EZ2VVEMQGC0FPWP4UPYRX2B4ORYSLMK1T&client_secret=VOERBINEUJAGOS4EKR3RA3DQP0Q40AFK3ELWGPICETN0HO0B&v=20130815&ll='+lat+','+lng+'&radius=3000&section=drinks',
+				    dataType: 'jsonp',
+				    success:function(response){
+				    	console.log(response);
+				    	$('#drinks').empty();
+				        var venues = response.response.groups[0].items
+				        for (i=0; i<10;i++) {
+				            venue_lat = venues[i].venue.location.lat
+				            venue_lng = venues[i].venue.location.lng
+				            distance = get_distance(venue_lat, venue_lng, lat, lng)
+				            $('#drinks').append("<p>"+venues[i].venue.name+" - " + distance + "</p>")
+				        }
+				    },
+				    error: function(xhr, error, status){
+				        console.log(error)
+				    }
+				});
+			
+		};
+
+		$('#address').submit(function(event){
+			event.preventDefault();
+			address=$('#postcode').val();
+			console.log(address);
+			set_address();
+			get();
+		});
+
+	</script>	
+</body>
+</html>
