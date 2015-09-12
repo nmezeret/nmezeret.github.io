@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JD Mezziespoons</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+	<script src="leaflet.js"></script>
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
+</head>
+<style>
+
+	body {
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+	}
+
+	h1 {
+		text-align: center;
+		font-size: 3em;
+	}
+
+	img#me {
+		width: 40%;
+		display: block;
+		margin: auto;
+	}
+
+	#enter_click {
+		text-align: center;
+		font-size: 1em;
+	}
+
+	#info, #headers {
+		text-align: center;
+	}
+
+	#headers, #visited, #yetto {
+		display:none;
+	}
+
+	.spans {
+		padding: 1% 7% 1% 7%;
+		margin: 0% 1% 0% 1%;
+		border: #E6E6E6 solid thin;
+		-webkit-transition: all 0.5s;
+	    -moz-transition: all 0.5s;
+	    -ms-transition: all 0.5s;
+	    -o-transition: all 0.5s;
+	    transition: all 0.5s;
+	}
+
+	.spans:hover {
+		padding: 1% 7% 1% 7%;
+		margin: 0% 1% 0% 1%;
+		border: #C4C4C4 solid thin;
+		cursor:pointer;
+		background:#E6E6E6;
+	}
+
+	table#visited, table#yetto{
+		overflow: scroll;
+		float:left;
+		width: 50%;
+		padding-top: 0px;
+		border-spacing: 30px;
+		text-align: left;
+		clear: left;
+		height: 510px;
+
+
+	}
+
+	td {
+		padding-bottom: 2%;
+		border-bottom: #EEEEEE 2px solid;
+	}
+
+	th {
+		font-size: 20px;
+		overflow: hidden;
+	    white-space: nowrap;
+	}
+
+	.soft {
+		color:#AAAAAA;
+		font-style: italic;
+
+	}
+
+	.snap {
+		width:70%;
+		display:block;
+		margin:auto;
+	}
+
+	.info, .photo {
+		width:50%;
+	}
+
+	#map {
+		opacity: 0;
+		width:45%;
+		height:500px;
+		float: right;
+		margin-right: 3%
+	}
+
+	#tables {
+
+
+	}
+</style>
+<body>
+	<h1>m e z z i e s p o o n s</h1>
+	
+	<div id="welcome">
+		<img id="me" src="me.jpg" alt='me with beers'>
+		<p id="info">My name is Nicolas Mezeret. My challenge is to go to every single JD Wetherspoons in the UK before I die.</p>
+		<p id="enter_click">CLICK TO ENTER SITE</p>
+	</div>
+
+	<div id="tables">
+		<p id="headers"><span class="spans" id="span1">VISITED</span> <span class="spans" id="span2">YET TO VISIT</span></p>
+		<table id="visited">
+			
+
+		</table>
+		<table id="yetto">
+			
+
+		</table>
+
+		<div id="map"></div>
+	</div>
+
+	<script>
+
+		$("html").on("click", function() {
+			$("#welcome").fadeOut(1200);
+	        $("#headers").delay(1200).fadeIn(1200);
+	        $("#visited").delay(1200).fadeIn(1200);
+	        $("html").off();
+	        $("#map").delay(1200).animate({opacity: 1},1200);
+
+
+	        
+ 
+		});
+
+		map = L.map('map').setView([53.5, -4], 6);
+
+		    L.tileLayer('https://{s}.tiles.mapbox.com/v3/nmezeret.nden67af/{z}/{x}/{y}.png', {
+		        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+		        maxZoom: 18, minZoom: 6
+		    }).addTo(map);
+
+		var greenIcon = L.icon({
+		    iconUrl: 'images/green2.png',
+		    shadowUrl: 'images/marker-shadow.png',
+
+		    iconSize:     [16, 16], // size of the icon
+		    shadowSize:   [0, 0], // size of the shadow
+		    iconAnchor:   [16, 16], // point of the icon which will correspond to marker's location
+		    shadowAnchor: [16, 16],  // the same for the shadow
+		    popupAnchor:  [-8, -16] // point from which the popup should open relative to the iconAnchor
+		});
+
+		var redIcon = L.icon({
+		    iconUrl: 'images/red2.png',
+		    shadowUrl: 'images/marker-shadow.png',
+
+		    iconSize:     [16, 16], // size of the icon
+		    shadowSize:   [0, 0], // size of the shadow
+		    iconAnchor:   [16, 16], // point of the icon which will correspond to marker's location
+		    shadowAnchor: [16, 16],  // the same for the shadow
+		    popupAnchor:  [-8, -16] // point from which the popup should open relative to the iconAnchor
+		});
+		
+
+		var flick = 10;
+
+		var pubs = [];
+		var vis = [];
+		var yet = [];
+		var lats = [];
+		d3.csv("pubs.csv", function(data) {
+			pubs = data.map(function(d) {return d;});
+
+			for(i=0;i<pubs.length;i++) {
+				if (pubs[i].Visited == "Yes") {
+					vis.push(pubs[i]);
+				} else {
+					yet.push(pubs[i]);
+				}	
+			}
+
+			for(i=0;i<vis.length;i++) {
+				if (vis[i].Date!="Pre-challenge"){
+					var snappy = String(vis[i].Postcode + ".jpg");
+					$("#visited").append("<tr><td class='info'><p>"+vis[i].Name+"</p><p class='soft'>"+vis[i].Location+"</p><p class='soft'>"+vis[i].Date+"</p></td><td class='photo'><a href='snaps/"+snappy+"'><img class='snap' src='snaps/"+snappy+"''><a/></td></tr>")
+				}
+
+				var marker = L.marker([vis[i].Latloc.split(",")[0], vis[i].Latloc.split(",")[1]], {icon: greenIcon}).addTo(map);
+				marker.bindPopup("<b>"+vis[i].Name+"</b> - "+vis[i].Location+"<br>Visited");
+			}
+
+			for(i=0;i<vis.length;i++) {
+				if (vis[i].Date=="Pre-challenge"){
+					$("#visited").append("<tr><td><p>"+vis[i].Name+"</p><p class='soft'>"+vis[i].Location+"</p><p class='soft'>"+vis[i].Date+"</p></td></tr>")
+				}
+			}
+
+
+
+			for(i=0;i<yet.length;i++) {
+				$("#yetto").append("<tr><td><p>"+yet[i].Name+"</p><p class='soft'>"+yet[i].Location+"</p></td></tr>")
+
+				if (yet[i].Latloc){
+					var marker = L.marker([yet[i].Latloc.split(",")[0], yet[i].Latloc.split(",")[1]], {icon: redIcon}).addTo(map);
+					marker.bindPopup("<b>"+yet[i].Name+"</b> - "+yet[i].Location+"<br>Not Yet Visited");
+				}
+
+			}
+
+			$('#headers').append("<br><br><br>"+(vis.length*100/yet.length).toFixed(2)+"% of Wetherspoons visited.");
+
+		});
+
+		$('#span1').on('click', change_visited);
+
+		$('#span2').on('click', change_yetto);
+
+		function change_yetto() {
+			$('#visited').fadeOut(500);
+			$('#visited').delay(500).css('display','none');
+			$('#yetto').delay(500).fadeIn(500);
+			$('#yetto').delay(500).css('display','block');
+		}
+		function change_visited() {
+			$('#yetto').fadeOut(500);
+			$('#yetto').delay(500).css('display','none');
+			$('#visited').delay(500).fadeIn(500);
+			$('#visited').delay(500).css('display','block');
+		};
+
+
+		
+
+	</script>
+</body>
+</html>
