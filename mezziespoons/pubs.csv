@@ -10,14 +10,15 @@ Cardiff,The Ernest Willows,CF24 3DL,Yes,Pre-challenge,"51.4863000,-3.1658000"
 Cardiff,The Gatekeeper,CF10 1DD,Yes,Pre-challenge,"51.4800000,-3.1814000"
 Cardiff,The Great Western,CF10 1FA,Yes,Pre-challenge,"51.4771000,-3.1774000"
 Cardiff,The Prince of Wales,CF10 1FA,Yes,Pre-challenge,"51.4771000,-3.1774000"
+Coventry,The Earl of Mercia,CV1 5RE,Yes,Pre-challenge,"52.4074730,-1.5090200"
 Islington,The Angel,N1 9LQ,Yes,Pre-challenge,"51.5324000,-0.1066000"
 Leamington Spa,The Jug & Jester,CV31 3AF,Yes,Pre-challenge,"52.2852000,-1.5327000"
 Leamington Spa,The Benjamin Satchwell,CV32 4AQ,Yes,Pre-challenge,"52.2899000,-1.5360000"
 Manchester,Mardi Gras,M17 8EH,Yes,Pre-challenge,"53.4662000,-2.3490000"
+Marble Arch,The Tyburn,W2 2EN,Yes,Pre-challenge,"51.5138550,-0.1601180"
 Old Street,The Masque Haunt,EC1V 9BP,Yes,Pre-challenge,"51.5250000,-0.0905000"
 Petts Wood,The Sovereign of the Seas,BR5 1DG,Yes,Pre-challenge,"51.3895000,0.0718000"
 Swansea,The Potters Wheel,SA1 5JE,Yes,Pre-challenge,"51.6196000,-3.9488000"
-Coventry,The Earl of Mercia,CV1 5RE,Yes,Pre-challenge,"52.4074730,-1.5090200"
 Cardiff,The Central Bar,CF10 3BW,Yes,07/09/2015,"51.4834000,-3.1728000"
 Cardiff,The Crockerton,CF10 3AD,Yes,07/09/2015,"51.4831000,-3.1758000"
 Manchester,The Paramount,M1 4BH,Yes,23/08/2015,"53.4767000,-2.2426000"
@@ -326,628 +327,627 @@ Exeter,The Sawyer's Arms,EX4 1JD,No,,"50.7153100,-3.5443710"
 Exmouth,The Powder Monkey,EX8 1RJ,No,,"50.6203010,-3.4136030"
 Fakenham,The Limes,NR21 9AZ,No,,"52.8281910,0.8484050"
 Falkirk,The Carron Works,FK1 1NB,No,,"56.0000560,-3.7834370"
-Falmouth,The Packet Station,TR11 3QA,No,,
-Fareham,The Crown Inn,PO16 0JW,No,,
-Fareham,The Lord Arthur Lee,PO16 0EP,No,,
-Farnborough,The Tilly Shilling,GU14 7PG,No,,
-Farringdon,The Sir John Oldcastle,EC1M 3JF,No,,
-Faversham,The Leading Light,ME13 8NZ,No,,
-Feltham,The Moon on the Square,TW13 4AU,No,,
-Ferndown,The Nightjar,BH22 9JA,No,,
-Finsbury Park,The White Lion of Mortimer,N4 3PX,No,,
-Fleet,The Prince Arthur,GU51 4BX,No,,
-Fleetwood,The Thomas Drummond,FY7 6JE,No,,
-Folkestone,The Samuel Peto,CT20 1EY,No,,
-Forest Gate,The Hudson Bay,E7 9PA,No,,
-Forest Hill,The Capitol,SE23 3TW,No,,
-Fort William,The Great Glen,PH33 6AD,No,,
-Fraserburgh,The Saltoun Inn,AB43 9DA,No,,
-Fulham,Oyster Rooms,SW6 1AA,No,,
-Gainsborough,The Sweyn Forkbeard,DN21 2DP,No,,
-Galashiels,Hunters Hall,TD1 1SE,No,,
-Gateshead,The Tilley Stone,NE8 1EE,No,,
-Gateshead,Wetherspoons,NE11 9YP,No,,
-Gatwick Airport,The Beehive,RH6 0RN,No,,
-Gatwick Airport,The Flying Horse,RH6 0NN,No,,
-Gatwick Airport,The Red Lion,RH6 0PJ,No,,
-Glasgow,Camperdown Place,G2 1DR,No,,
-Glasgow,Sir John Stirling Maxwell,G41 3NN,No,,
-Glasgow,The Counting House,G1 2DH,No,,
-Glasgow,The Crystal Palace,G1 4QD,No,,
-Glasgow,The Edward G. Wylie,G2 6TS,No,,
-Glasgow,The Esquire House,G12 0AU,No,,
-Glasgow,The Hengler's Circus,G2 3HU,No,,
-Glasgow,The Kirky Puffer,G66 1NG,No,,
-Glasgow,The Lord of the Isles,PA4 8XQ,No,,
-Glasgow,The Sir John Moore,G2 8QW,No,,
-Glasgow,The Society Room,G2 2JJ,No,,
-Glenrothes,The Golden Acorn,KY7 5NA,No,,
-Glossop,The Smithy Fold,SK13 8HT,No,,
-Gloucester,The Lord High Constable of England,GL1 2EH,No,,
-Gloucester,The Regal,GL1 1RP,No,,
-Gloucester,The Water Poet,GL1 1PN,No,,
-Godalming,The Jack Phillips,GU7 1DY,No,,
-Goole,City and County,DN14 5DR,No,,
-Gosport,The Star,PO12 1DF,No,,
-Grangemouth,The Earl of Zetland,FK3 8AF,No,,
-Grantham,The Tollemache Inn,NG31 6PY,No,,
-Gravesend,The Robert Pocock,DA12 1AH,No,,
-Great Malvern,The Foley Arms Hotel,WR14 4QS,No,,
-Great Yarmouth,The Troll Cart,NR30 2AF,No,,
-Greenock,The James Watt,PA15 1DD,No,,
-Greenwich,The Gate Clock,SE10 9RB,No,,
-Grimsby,Ice Barque,DN31 1XZ,No,,
-Grimsby,The Yarborough Hotel,DN31 1JN,No,,
-Guildford,The Rodboro Buildings,GU1 4SB,No,,
-Hackney,Baxter's Court,E8 1HE,No,,
-Hailsham,The George Hotel,BN27 1AD,No,,
-Halesowen,The William Shenstone,B63 4AB,No,,
-Halifax,The Barum Top Inn,HX1 1NX,No,,
-Halifax,The Percy Shaw,HX1 1YA,No,,
-Hammersmith,The Plough & Harrow,W6 0QU,No,,
-Hammersmith,The William Morris,W6 0QA,No,,
-Hanham,The Jolly Sailor,BS15 3DQ,No,,
-Hanley,The Reginald Mitchell,ST1 1NQ,No,,
-Harlow,The William Aylmer,CM20 1DG,No,,
-Harringay,The Toll Gate,N8 0PS,No,,
-Harrogate,The Winter Gardens,HG1 2RR,No,,
-Harrow,The Moon on the Hill,HA1 2AW,No,,
-Harrow,The New Moon,HA3 8DN,No,,
-Hartlepool,The King Johns Tavern,TS26 9HD,No,,
-Hartlepool,The Ward Jackson,TS24 7EU,No,,
-Haslemere,The Swan Inn,GU27 2HG,No,,
-Hastings,The John Logie Baird,TN34 1BE,No,,
-Hatch End,The Moon and Sixpence,HA5 4HS,No,,
-Hatfield,Harpsfield Hall,AL10 9RQ,No,,
-Havant,The Parchment Makers,PO9 1HE,No,,
-Haverfordwest,The William Owen,SA61 1BG,No,,
-Haverhill,The Drabbet Smock,CB9 8BB,No,,
-Hawick,The Bourtree,TD9 9HL,No,,
-Hayes,The Botwell Inn,UB3 3EB,No,,
-Hazel Grove,The Wilfred Wood,SK7 4DQ,No,,
-Heanor,The Red Lion,DE75 7QG,No,,
-Heathrow,The Crown Rivers,TW6 2GA,No,,
-Heathrow,Wetherspoon Express,TW6 2GA,No,,
-Heathrow Airport,The Flying Chariot,TW6 1EW,No,,
-Hednesford,Hedgeford Lodge,WS12 1DL,No,,
-Helensburgh,The Henry Bell,G84 8AS,No,,
-Helston,The Coinage Hall,TR13 8ER,No,,
-Hemel Hempstead,The Full House,HP1 1EZ,No,,
-Henley-on-Thames,The Catherine Wheel,RG9 2AR,No,,
-Hereford,The Kings Fee,HR1 2BJ,No,,
-Herne Bay,The Saxon Shore,CT6 5JQ,No,,
-Hertford,The Six Templars,SG14 1PS,No,,
-Hexham,The Forum,NE46 3PB,No,,
-Heywood,The Edwin Waugh,OL10 4LY,No,,
-High Wycombe,The Falcon,HP11 2AX,No,,
-High Wycombe,The William Robert Loosley,HP11 2DN,No,,
-Highgate,The Gatehouse,N6 4BD,No,,
-Hinckley,The Baron of Hinckley,LE10 0AZ,No,,
-Hitchin,The Angel Vaults Inn,SG5 1AE,No,,
-Hoddesdon,The Star,EN11 8TN,No,,
-Holborn,Penderel's Oak,WC1V 7HP,No,,
-Holborn,Shakespeares Head,WC2B 6BG,No,,
-Holloway,The Coronet,N7 6NJ,No,,
-Holywell,The Market Cross,CH8 7LA,No,,
-Honiton,The Star Inn,EX14 1BS,No,,
-Horley,The Jack Fairman,RH6 7PZ,No,,
-Hornchurch,J.J. Moon's,RM12 4UN,No,,
-Horsham,The Lynd Cross,RH12 1QR,No,,
-Houghton Le Spring,The Wild Boar,DH4 4BN,No,,
-Hounslow,The Moon Under Water,TW3 3LF,No,,
-Hove,The Cliftonville Inn,BN3 3YE,No,,
-Hoylake,Hoylake Lights,CH47 3BB,No,,
-Hucknall,The Pilgrim Oak,NG15 7AX,No,,
-Huddersfield,The Cherry Tree,HD1 1BA,No,,
-Huddersfield,The Lord Wilson,HD1 2PZ,No,,
-Hyde,The Cotton Bale,SK14 2LX,No,,
-Ickenham,The Tichenham Inn,UB10 8DF,No,,
-Ilford,The Great Spoon of Ilford,IG1 4LZ,No,,
-Ilfracombe,The Admiral Collingwood,EX34 9AP,No,,
-Ilkeston,The Observatory,DE7 5QA,No,,
-Ilkley,The Lister Arms,LS29 9LB,No,,
-Inverness,The King's Highway,IV1 1EN,No,,
-Inverurie,The Gordon Highlander,AB51 3QQ,No,,
-Ipswich,The Cricketers,IP1 3JA,No,,
-Ipswich,The Robert Ransome,IP1 3BE,No,,
-Ipswich,Wetherspoons,IP1 1DB,No,,
-Irvine,The Auld Brig,KA12 8EH,No,,
-Islington,The Glass Works,N1 0PS,No,,
-Islington,The White Swan,N1 1RY,No,,
-Keighley,The Livery Rooms,BD21 3AA,No,,
-Kendal,The Miles Thompson,LA9 4JH,No,,
-Keswick,The Chief Justice of the Common Pleas,CA12 5JY,No,,
-Kettering,The Earl of Dalkeith,NN16 0BS,No,,
-Kidderminster,The Penny Black,DY10 2AZ,No,,
-Kilmarnock,The Wheatsheaf Inn,KA1 1JG,No,,
-King's Lynn,Globe Hotel,PE30 1EZ,No,,
-King's Lynn,The Lattice House,PE30 1EG,No,,
-Kingsbury,J.J. Moon's,NW9 9EL,No,,
-Kingston Upon Hull,The Admiral of the Humber,HU1 2NT,No,,
-Kingston Upon Hull,The Three John Scotts,HU1 1XW,No,,
-Kingston Upon Hull,The William Wilberforce,HU1 2JD,No,,
-Kingston Upon Hull,The Zachariah Pearson,HU5 1LH,No,,
-Kingston upon Thames,The Kings Tun,KT1 1QT,No,,
-Kirkby,The Gold Balance,L32 8RR,No,,
-Kirkby in Ashfield,The Regent,NG17 7BQ,No,,
-Kirkcaldy,The Robert Nairn,KY1 1EH,No,,
-Knaresborough,The Crown Inn,HG5 0HB,No,,
-Lanark,The Clydesdale Inn,ML11 9ET,No,,
-Lancaster,The Green Ayre,LA1 1LU,No,,
-Lancaster,The Sir Richard Owen,LA1 1RQ,No,,
-Leatherhead,The Edmund Tylney,KT22 8AW,No,,
-Lee Green,The Edmund Halley,SE12 8RG,No,,
-Leeds,Beckett's Bank,LS1 5HU,No,,
-Leeds,Stick or Twist,LS2 8PD,No,,
-Leeds,The Clothiers Arms,LS19 7PP,No,,
-Leeds,The Cuthbert Brodrick,LS2 3AD,No,,
-Leeds,The Hedley Verity,LS1 3HQ,No,,
-Leeds,The Three Hulats,LS7 3NB,No,,
-Leeds,Wetherspoons,LS1 4DT,No,,
-Leek,The Green Dragon,ST13 5DS,No,,
-Leicester,The Corn Exchange,LE1 5GG,No,,
-Leicester,The High Cross,LE1 4JB,No,,
-Leicester,The Last Plantagenet,LE1 6FD,No,,
-Leicester,The White House,LE7 9SE,No,,
-Leigh,The Thomas Burke,WN7 1QR,No,,
-Leigh-on-Sea,The Elms,SS9 3ND,No,,
-Leighton Buzzard,The Swan Hotel,LU7 1EA,No,,
-Leominster,The Duke's Head,HR6 8LR,No,,
-Letchworth,The Three Magnets,SG6 3EW,No,,
-Lewisham,The Watch House,SE13 6JP,No,,
-Leyland,The Leyland Lion,PR25 2SA,No,,
-Leyton,The Drum,E10 7EQ,No,,
-Leytonstone,The Walnut Tree,E11 1HH,No,,
-Lichfield,The Acorn Inn,WS13 6JJ,No,,
-Lichfield,The Gatehouse,WS13 6PW,No,,
-Lincoln,Ritz,LN5 7PJ,No,,
-Lincoln,The Forum,LN2 1DY,No,,
-Lincoln,The Square Sail,LN1 1YW,No,,
-Lisburn,The Tuesday Bell,BT28 1TS,No,,
-Littlehampton,The George Inn,BN17 5BG,No,,
-Liverpool,Childwall Fiveways Hotel,L15 6XS,No,,
-Liverpool,The Barker's Brewery,L36 9UJ,No,,
-Liverpool,The Fall Well,L1 1LS,No,,
-Liverpool,The Lime Kiln,L1 4NR,No,,
-Liverpool,The Raven,L9 2BU,No,,
-Liverpool,The Richard John Blackler,L1 1HU,No,,
-Liverpool,The Thomas Frost,L4 4AJ,No,,
-Liverpool,The Welkin,L1 6DS,No,,
-Liverpool,Wetherspoon Express,L24 1YD,No,,
-Liverpool Station,The North Western,L1 1RJ,No,,
-Livingston,The Almond Bank,EH54 6HP,No,,
-Livingston,The NewYearField,EH54 6QX,No,,
-Llandudno,The Palladium,LL30 2DD,No,,
-Llanelli,The York Palace,SA15 3YA,No,,
-Long Eaton,The Twitchel Inn,NG10 1ED,No,,
-Loughborough,The Amber Rooms,LE11 5BE,No,,
-Loughborough,The Moon & Bell,LE11 3HA,No,,
-Loughton,The Last Post,IG10 1BB,No,,
-Louth,The Joseph Morton,LN11 9EZ,No,,
-Lowestoft,The Joseph Conrad,NR32 1BA,No,,
-Luton,The London Hatter,LU1 3ET,No,,
-Luton,The White House,LU1 1SA,No,,
-Lymington,The Six Bells,SO41 9ND,No,,
-Lytham,The Railway Hotel,FY8 5DH,No,,
-Macclesfield,The Society Rooms,SK11 7NA,No,,
-Maesteg,The Sawyer's Arms,CF34 9DF,No,,
-Maghull,The Frank Hornby,L31 6BR,No,,
-Maidenhead,The Bear,SL6 1QJ,No,,
-Maidenhead,The Greyhound,SL6 1HT,No,,
-Maidstone,The Muggleton Inn,ME14 1HJ,No,,
-Maidstone,The Society Rooms,ME14 1RF,No,,
-Maldon,Rose & Crown,CM9 5EP,No,,
-Maltby,The Queens Hotel,S66 7NQ,No,,
-Manchester,Castle in the Air,M17 8DD,No,,
-Manchester,Ford Madox Brown,M14 5FT,No,,
-Manchester,The Gateway,M20 5PG,No,,
-Manchester,The Great Central,M14 6NL,No,,
-Manchester,The Moon Under Water,M3 2FN,No,,
-Manchester,The Seven Stars,M4 2BS,No,,
-Manchester,The Waterhouse,M2 4EG,No,,
-Mansfield,The Court House,NG18 1HX,No,,
-Mansfield,The Stag and Pheasant,NG18 1NU,No,,
-Mansfield,The Widow Frost,NG18 1NB,No,,
-Marble Arch,The Tyburn,W2 2EN,No,,
-March,The Hippodrome,PE15 8AQ,No,,
-Margate,The Mechanical Elephant,CT9 1XJ,No,,
-Market Drayton,The Hippodrome,TF9 1PS,No,,
-Market Harborough,The Sugar Loaf,LE16 7NJ,No,,
-Marylebone,The Metropolitan Bar,NW1 5LA,No,,
-Matlock,The Crown,DE4 3AT,No,,
-Melksham,The Bear,SN12 6LL,No,,
-Melton Mowbray,The Kettleby Cross,LE13 0UJ,No,,
-Mere Green,The Mare Pool,B74 2UG,No,,
-Merthyr Tydfil,Y Dic Penderyn,CF47 8AP,No,,
-Mexborough,The Old Market Hall,S64 9QA,No,,
-Middlesbrough,Swatter's Carr,TS1 3QW,No,,
-Middlesbrough,The Isaac Wilson,TS1 1SF,No,,
-Middlesbrough,The Resolution,TS1 5UA,No,,
-Middleton,The Harbord Harbord,M24 6TE,No,,
-Mile End,The Half Moon,E1 4AA,No,,
-Milton Keynes,Lloyds No.1 Bar,MK9 3PU,No,,
-Milton Keynes,The Moon Under Water,MK9 3NN,No,,
-Milton Keynes,The Secklow Hundred,MK9 2EA,No,,
-Milton Keynes,Wetherspoons,MK9 1EA,No,,
-Minehead,The Duke of Wellington,TA24 5NH,No,,
-Mitcham,The White Lion of Mortimer,CR4 2JD,No,,
-Mold,The Gold Cape,CH7 1ES,No,,
-Monmouth,The King's Head,NP25 3DY,No,,
-Morecambe,The Eric Bartholomew,LA4 5DD,No,,
-Moreton,The Mockbeggar Hall,CH46 0SL,No,,
-Morley,The Picture House,LS27 8HE,No,,
-Morpeth,The Electrical Wizard,NE61 1PS,No,,
-Moseley,The Elizabeth of York,B13 8JG,No,,
-Motherwell,The Brandon Works,ML1 1JJ,No,,
-Musselburgh,The David Macbeth Moir,EH21 6AG,No,,
-Muswell Hill,The Mossy Well,N10 3SH,No,,
-Nailsea,The Glass Maker,BS48 1RD,No,,
-Neath,The David Protheroe,SA11 1LS,No,,
-New Barnet,The Railway Bell,EN4 8RR,No,,
-New Brighton,The Master Mariner,CH45 2JT,No,,
-New Ferry,The John Masefield,CH62 5AD,No,,
-New Malden,The Watchman,KT3 4ES,No,,
-Newark-on-Trent,The Sir John Arderne,NG24 1DT,No,,
-Newbury,The Diamond Tap,RG14 5BX,No,,
-Newbury,The Hatchet Inn,RG14 5BD,No,,
-Newcastle upon Tyne,The Five Swans,NE1 7PG,No,,
-Newcastle upon Tyne,The Job Bulman,NE3 1AA,No,,
-Newcastle upon Tyne,The Keel Row,NE1 5RF,No,,
-Newcastle upon Tyne,The Mile Castle,NE1 5XU,No,,
-Newcastle upon Tyne,The Quayside,NE1 3RN,No,,
-Newcastle upon Tyne,The Union Rooms,NE1 1TT,No,,
-Newcastle-under-Lyme,The Arnold Machin,ST5 1PB,No,,
-Newmarket,The Golden Lion,CB8 8LB,No,,
-Newport,The Godfrey Morgan,NP19 8EG,No,,
-Newport,The John Wallace Linton,NP20 4AD,No,,
-Newport,The Man in the Moon,PO30 5HB,No,,
-Newport,The Queen's Hotel,NP20 4AN,No,,
-Newport,The Tom Toya Lewis,NP20 1LW,No,,
-Newport,The William Coppin,PO30 2BX,No,,
-Newquay,The Cribbar,TR7 1ER,No,,
-Newquay,The Towan Blystra,TR7 1SG,No,,
-Newton Abbot,The Richard Hopkins,TQ12 2EW,No,,
-Newtown,The Black Boy,SY16 2BQ,No,,
-Newtownards,The Spirit Merchant,BT23 4LP,No,,
-Norbury,The Moon Under Water,SW16 4AU,No,,
-North Cheam,The Nonsuch Inn,SM3 9AA,No,,
-North Finchley,The Tally Ho,N12 0BP,No,,
-Northampton,The Cordwainer,NN1 2AQ,No,,
-Northampton,The Moon on the Square,NN1 2EA,No,,
-Northwich,The Penny Black,CW9 5AB,No,,
-Northwood Hills,The William Jolle,HA6 1NZ,No,,
-Norwich,The Bell Hotel,NR1 3QB,No,,
-Norwich,The Glass House,NR3 1LA,No,,
-Norwich,The Queen of Iceni,NR1 1ED,No,,
-Norwich,The Whiffler,NR6 5JB,No,,
-Nottingham,Lloyds No.1 Bar,NG1 1NL,No,,
-Nottingham,The Company Inn,NG1 7EH,No,,
-Nottingham,The Free Man,NG4 1JD,No,,
-Nottingham,The Gooseberry Bush,NG1 4GL,No,,
-Nottingham,The Joseph Else,NG1 2JS,No,,
-Nottingham,The Roebuck Inn,NG1 6FH,No,,
-Nottingham,The Samuel Hall,NG5 2JN,No,,
-Nottingham,The Trent Bridge Inn,NG2 6AA,No,,
-Nottingham,The Woodthorpe Top,NG3 5JL,No,,
-Nuneaton,The Felix Holt,CV11 5BS,No,,
-Nuneaton,The William White,CV11 4EU,No,,
-Oadby,The Lord Keeper of the Great Seal,LE2 5BF,No,,
-Oakham,The Captain Noel Newton,LE15 6AJ,No,,
-Oban,The Corryvreckan,PA34 4LW,No,,
-Oldbury,The Court of Requests,B69 3AF,No,,
-Oldham,The Shay Wake,OL2 8EQ,No,,
-Oldham,The Squire Knott,OL1 3SL,No,,
-Oldham,The Up Steps Inn,OL1 3AJ,No,,
-Ormskirk,The Court Leet,L39 2XA,No,,
-Orpington,The Harvest Moon,BR6 0LQ,No,,
-Oswestry,The Wilfred Owen,SY11 1AF,No,,
-Otley,The Bowling Green,LS21 3AB,No,,
-Oxford,The Four Candles,OX1 2BE,No,,
-Oxford,The Swan & Castle,OX1 1AY,No,,
-Oxford,The William Morris,OX4 3LR,No,,
-Oxted,The Oxted Inn,RH8 9HR,No,,
-Paignton,Talk of the Town,TQ4 6AL,No,,
-Paignton,The Isaac Merritt,TQ3 3AA,No,,
-Paisley,The Last Post,PA1 1BN,No,,
-Paisley,The Sanderling,PA3 2ST,No,,
-Paisley,The Sandpiper,PA3 2SW,No,,
-Palmers Green,The Alfred Herring,N13 5TT,No,,
-Peckham,The Kentish Drovers,SE15 5RS,No,,
-Peebles,The Cross Keys,EH45 8RS,No,,
-Penarth,The Bears Head,CF64 1JD,No,,
-Penge,The Moon & Stars,SE20 7QS,No,,
-Penrith,The Dog Beck,CA11 8JH,No,,
-Penzance,The Tremenheere,TR18 2JA,No,,
-Perranporth,The Green Parrot,TR6 0JP,No,,
-Perth,The Capital Asset,PH1 5LQ,No,,
-Peterborough,The College Arms,PE1 1RS,No,,
-Peterborough,The Draper's Arms,PE1 1LZ,No,,
-Peterhead,Cross Keys,AB42 1TH,No,,
-Peterlee,The Five Quarter,SR8 1AB,No,,
-Petersfield,The Red Lion,GU31 4AE,No,,
-Plymouth,The Britannia Inn,PL2 3AA,No,,
-Plymouth,The Gog and Magog,PL1 2LA,No,,
-Plymouth,The Mannamead,PL4 6JH,No,,
-Plymouth,The Union Rooms,PL1 2SU,No,,
-Plympton,The Stannary Court,PL7 2AA,No,,
-Pontefract,The Blue Bell,WF9 4LQ,No,,
-Pontefract,The Broken Bridge,WF8 1PD,No,,
-Pontypool,The John Capel Hanbury,NP4 6LT,No,,
-Pontypridd,The Tumble Inn,CF37 1BA,No,,
-Poole,The Lord Wimborne,BH15 1QD,No,,
-Poole,The Quay,BH15 1HJ,No,,
-Port Talbot,The Lord Caradoc,SA13 1NW,No,,
-Portsmouth,The Isambard Kingdom Brunel,PO1 2DD,No,,
-Portsmouth,The John Jacques,PO1 5BZ,No,,
-Portsmouth,The Sir Alec Rose,PO6 4TP,No,,
-Portsmouth,The Sir John Baker,PO2 0LN,No,,
-Portsmouth,The Trafalgar,PO1 1DE,No,,
-Potters Bar,The Admiral Byng,EN6 1AF,No,,
-Poulton Le Fylde,The Poulton Elk,FY6 7SR,No,,
-Poynton,The Kingfisher,SK12 1NJ,No,,
-Prescot,The Watch Maker,L34 5QL,No,,
-Preston,The Grey Friar,PR1 2EJ,No,,
-Preston,The Twelve Tellers,PR1 3BQ,No,,
-Prestwick,The Prestwick Pioneer,KA9 1JS,No,,
-Pudsey,The Crossed Shuttle,LS28 7BJ,No,,
-Purley,The Foxley Hatch,CR8 2LE,No,,
-Putney,The Railway,SW15 6TD,No,,
-Putney,The Rocket,SW15 2JQ,No,,
-Pwllheli,Pen Cob,LL53 5HG,No,,
-Rayleigh,The Roebuck,SS6 7BU,No,,
-Rayners Lane,The Village Inn,HA5 5DY,No,,
-Raynes Park,The Edward Rayne,SW20 8ND,No,,
-Reading,The Back of Beyond,RG1 3BY,No,,
-Reading,The Hope Tap,RG1 1EP,No,,
-Reading,The Monks' Retreat,RG1 1HE,No,,
-Redcar,The Plimsoll Line,TS10 3DH,No,,
-Redditch,The Rising Sun,B98 8AE,No,,
-Redditch,The Royal Enfield,B97 4QR,No,,
-Redhill,The Sun,RH1 1LY,No,,
-Retford,The Dominie Cross,DN22 6JR,No,,
-Rhyl,The Sussex,LL18 1SG,No,,
-Richmond,The Ralph Fitz Randal,DL10 4AE,No,,
-Rickmansworth,The Pennsylvanian,WD3 1AN,No,,
-Ripley,The Red Lion,DE5 3BS,No,,
-Ripon,The Unicorn Hotel,HG4 1BP,No,,
-Rochdale,The Regal Moon,OL16 1HB,No,,
-Rochester,The Golden Lion,ME1 1EL,No,,
-Romford,The Moon and Stars,RM1 1NX,No,,
-Romford,The World's Inn,RM1 1NX,No,,
-Ross-on-Wye,The Mail Rooms,HR9 5BS,No,,
-Rotherham,The Bluecoat,S60 2DJ,No,,
-Rotherham,The Corn Law Rhymer,S60 1PT,No,,
-Rotherham,The Rhinoceros,S60 1PL,No,,
-Rotherhithe,The Surrey Docks,SE16 2LW,No,,
-Rowley Regis,The Britannia,B65 0ES,No,,
-Royston,The Manor House,SG8 7BZ,No,,
-Rugby,Rupert Brooke,CV21 2TP,No,,
-Rugby,The Lawrence Sheriff,CV21 3BW,No,,
-Rugeley,The Plaza,WS15 2EJ,No,,
-Ruislip Manor,J.J. Moon's,HA4 0AA,No,,
-Runcorn,The Ferry Boat,WA7 1LR,No,,
-Rushden,The Railway Inn,NN10 0PA,No,,
-Rutherglen,An Ruadh-Ghleann,G73 2HY,No,,
-Ruthin,The Castle Hotel,LL15 1AA,No,,
-Ryde,S. Fowler & Co.,PO33 2LF,No,,
-Saffron Walden,The Temeraire,CB10 1AA,No,,
-Sale,The J. P. Joule,M33 3BR,No,,
-Salisbury,The King's Head Inn,SP1 2ND,No,,
-Saltcoats,The Salt Cot,KA21 5DS,No,,
-Sandbach,The George Inn,CW11 1AL,No,,
-Scarborough,The Lord Rosebery,YO11 1JW,No,,
-Scunthorpe,The Blue Bell Inn,DN15 7PU,No,,
-Seaham,The Hat and Feathers,SR7 7HF,No,,
-Sedgley,The Clifton,DY3 1RX,No,,
-Selby,The Giant Bellflower,YO8 4HF,No,,
-Selsdon,The Sir Julian Huxley,CR2 8LB,No,,
-Sevenoaks,The Sennockian,TN13 1UX,No,,
-Sheerness,The Belle and Lion,ME12 1NL,No,,
-Sheffield,Sheffield Waterworks Company,S1 4GF,No,,
-Sheffield,The Bankers Draft,S1 2GH,No,,
-Sheffield,The Benjamin Huntsman,S1 4HP,No,,
-Sheffield,The Francis Newton,S10 2LA,No,,
-Sheffield,The Rawson Spring,S6 2LN,No,,
-Sheffield,The Sheaf Island,S11 8HW,No,,
-Sheffield,The Steel Foundry,S9 1EP,No,,
-Sheffield,The Swim Inn,S10 2GW,No,,
-Sheffield,The Wagon and Horses,S35 2UU,No,,
-Sheffield,The Woodseats Palace,S8 0SD,No,,
-Shepherds Bush,The Central Bar,W12 8PH,No,,
-Shipley,The Sir Norman Rae,BD18 3QB,No,,
-Shirley,The Bright Water Inn,SO15 3HY,No,,
-Shirley,The Pump House,B90 3AQ,No,,
-Shoeburyness,Parsons' Barn,SS3 8UT,No,,
-Shotton,The Central Hotel,CH5 1BX,No,,
-Shrewsbury,Montgomery's Tower,SY1 1RT,No,,
-Shrewsbury,The Shrewsbury Hotel,SY1 1PU,No,,
-Sidcup,The Tailor's Chalk,DA14 6ED,No,,
-Sittingbourne,The Golden Hope,ME10 1DR,No,,
-Sittingbourne,The Summoner,ME10 4AY,No,,
-Skegness,The Red Lion,PE25 2RU,No,,
-Skipton,The Devonshire,BD23 2HR,No,,
-Sleaford,The Packhorse Inn,NG34 7BH,No,,
-Slough,The Moon and Spoon,SL1 1EL,No,,
-Solihull,The Assembly Rooms,B91 3AD,No,,
-Solihull,The White Swan,B91 3SB,No,,
-South Norwood,The William Stanley,SE25 6EP,No,,
-South Shields,The Wouldhave,NE33 1TA,No,,
-Southampton,The Admiral Sir Lucius Curtis,SO14 3JS,No,,
-Southampton,The Giddy Bridge,SO15 2AE,No,,
-Southampton,The Standing Order,SO14 2DF,No,,
-Southend-on-Sea,The Last Post,SS1 1AS,No,,
-Southgate,The New Crown,N14 5PH,No,,
-Southport,The Sir Henry Segrave,PR8 1RH,No,,
-Southport,The Willow Grove,PR9 0AG,No,,
-Southsea,The Lord Palmerston,PO5 3PT,No,,
-Sowerby Bridge,The Commercial Inn,HX6 2LA,No,,
-Spalding,The Ivy Wall,PE11 1DQ,No,,
-Spennymoor,The Grand Electric Hall,DL16 6DJ,No,,
-St Albans,Waterend Barn,AL1 3LE,No,,
-St Anne's on Sea,The Trawl Boat Inn,FY8 1QR,No,,
-St Austell,The Rann Wartha,PL25 5EW,No,,
-St Helens,The Glass House,WA10 1NE,No,,
-St Helens,The Running Horses,WA10 1PY,No,,
-St Ives,The Hain Line,TR26 1SB,No,,
-St Neots,The Weeping Ash,PE19 1AE,No,,
-Stafford,The Butler's Bell,ST16 2NT,No,,
-Stafford,The Picture House,ST16 2HL,No,,
-Staines,The George,TW18 4EE,No,,
-Stalybridge,The Society Rooms,SK15 2JN,No,,
-Stamford,The Stamford Post,PE9 2QZ,No,,
-Stanmore,The Man in the Moon,HA7 4EB,No,,
-Stansted Airport,The Windmill,CM24 1QN,No,,
-Stapleford,Admiral Sir John Borlase Warren,NG9 7AA,No,,
-Stevenage,The Standard Bearer,SG1 1PF,No,,
-Stevenage,The Standing Order,SG1 3AU,No,,
-Stirling,The Crossed Peels,FK8 1AT,No,,
-Stockport,The Calverts Court,SK1 1EB,No,,
-Stockton-on-Tees,The Highland Laddie,TS20 1AQ,No,,
-Stockton-on-Tees,The Thomas Sheraton,TS18 1BH,No,,
-Stoke Newington,The Rochester Castle,N16 0NY,No,,
-Stoke-on-Trent,The Wheatsheaf,ST4 1BU,No,,
-Stone,The Poste of Stone,ST15 8AB,No,,
-Stoneycroft,The Navigator,L13 5UH,No,,
-Stourbridge,The Chequers Inn,DY8 1EQ,No,,
-Stourbridge,The Edward Rutland,DY8 1DX,No,,
-Stourport-on-Severn,Ye Olde Crown Inn,DY13 8XB,No,,
-Stowmarket,The Willow Tree,IP14 1BB,No,,
-Stratford,Goldengrove,E15 1NS,No,,
-Stratford-upon-Avon,The Golden Bee,CV37 6EE,No,,
-Streatham,The Crown & Sceptre,SW2 4AH,No,,
-Streatham,The Holland Tringham,SW16 1HJ,No,,
-Street,The Lantokay,BA16 0EY,No,,
-Stretford,The Bishop Blaize,M32 0SF,No,,
-Stroud,The Lord John,GL5 3AB,No,,
-Sudbury,Grover & Allen,CO10 1RF,No,,
-Sunderland,The Cooper Rose,SR1 3NG,No,,
-Sunderland,The Lambton Worm,SR1 3QA,No,,
-Sunderland,The William Jameson,SR1 1RH,No,,
-Surbiton,The Cap in Hand,KT6 5DE,No,,
-Surbiton,The Coronation Hall,KT6 4LQ,No,,
-Sutton,The Grapes,SM1 1NR,No,,
-Sutton,The Moon on the Hill,SM1 1DZ,No,,
-Sutton Coldfield,The Bishop Vesey,B73 5XA,No,,
-Sutton Coldfield,The Bottle of Sack,B72 1QG,No,,
-Sutton in Ashfield,The Picture House,NG17 1DA,No,,
-Swadlincote,The Sir Nigel Gresley,DE11 0AD,No,,
-Swansea,The Bank Statement,SA1 1EP,No,,
-Swansea,The Mardy Inn,SA4 4BR,No,,
-Swansea,The Red Lion,SA6 6JA,No,,
-Swindon,The Dockle Farmhouse,SN3 4PD,No,,
-Swindon,The Groves Company Inn,SN1 1RQ,No,,
-Swindon,The Savoy,SN1 1JL,No,,
-Swindon,The Sir Daniel Arms,SN1 1RQ,No,,
-Swords,The Old Borough,-,No,,
-Tamworth,The Bole Bridge,B79 7PA,No,,
-Tamworth,The Silk Kite,B79 7DF,No,,
-Taunton,The Coal Orchard,TA1 1UD,No,,
-Taunton,The Perkin Warbeck,TA1 3LP,No,,
-Tavistock,The Queen's Head Hotel,PL19 8AQ,No,,
-Teignmouth,The Jolie Brise,TQ14 8PE,No,,
-Telford,The Thomas Botfield,TF3 4BW,No,,
-Tewkesbury,The Royal Hop Pole,GL20 5RS,No,,
-Thetford,The Red Lion,IP24 2AL,No,,
-Thirsk,The Three Tuns,YO7 1LH,No,,
-Thornton Heath,The Flora Sandes,CR7 7JG,No,,
-Tiverton,The White Ball Inn,EX16 5LY,No,,
-Todmorden,The White Hart,OL14 7BD,No,,
-Tonbridge,The Humphrey Bean,TN9 1AP,No,,
-Tooting,J.J. Moon's,SW17 0RN,No,,
-Torquay,The Green Ginger,TQ2 5DZ,No,,
-Torquay,The London Inn,TQ1 2AA,No,,
-Tower Bridge (South),The Pommelers Rest,SE1 2UN,No,,
-Tower Hamlets,Goodman's Field,E1 8AN,No,,
-Tower of London,The Liberty Bounds,EC3N 4AA,No,,
-Tredegar,The Olympia,NP22 3ND,No,,
-Trowbridge,Sir Isaac Pitman,BA14 8AL,No,,
-Trowbridge,The Albany Palace,BA14 8AQ,No,,
-Truro,Try Dowr,TR1 2LW,No,,
-Tunbridge Wells,Opera House,TN1 1RT,No,,
-Twickenham,The William Webb Ellis,TW1 3RR,No,,
-Upper Edmonton,The Gilpin's Bell,N18 2SS,No,,
-Urmston,The Tim Bobbin,M41 5AN,No,,
-Uttoxeter,The Old Swan,ST14 8HN,No,,
-Uxbridge,The Good Yarn,UB8 1JX,No,,
-Uxbridge,The White House,UB11 1AA,No,,
-Victoria,The Willow Walk,SW1V 1LW,No,,
-Victoria Station Concourse,Wetherspoons,SW1V 1JT,No,,
-Wakefield,The Six Chimneys,WF1 1HX,No,,
-Walkden,The Bull's Head,M28 3NJ,No,,
-Wallasey,The Clairville,CH45 4NW,No,,
-Wallington,The Whispering Moon,SM6 8QF,No,,
-Wallsend,The Ritz,NE28 8JD,No,,
-Walsall,St. Matthew's Hall,WS1 1SX,No,,
-Walsall,The Imperial,WS1 1DA,No,,
-Waltham Cross,The Moon and Cross,EN8 7BX,No,,
-Walton-on-Thames,The Regent,KT12 2QP,No,,
-Wanstead,The George,E11 2RL,No,,
-Warminster,The Bath Arms,BA12 9AZ,No,,
-Warrington,The Friar Penketh,WA1 1EX,No,,
-Warrington,The Looking Glass,WA1 2LY,No,,
-Warwick,The Thomas Lloyd,CV34 4SA,No,,
-Washington,Sir William De Wessygnton,NE37 2SY,No,,
-Waterloo,The Queens Picture House,L22 5PE,No,,
-Waterlooville,The Denmead Queen,PO7 7EB,No,,
-Watford,Colombia Press,WD17 1AW,No,,
-Watford,The Moon Under Water,WD17 2BS,No,,
-Wath upon Dearne,The Church House,S63 7RZ,No,,
-Wednesbury,The Bellwether,WS10 9BZ,No,,
-Wednesfield,The Royal Tiger,WV11 1ST,No,,
-Welling,The New Cross Turnpike,DA16 3PB,No,,
-Wellingborough,The Red Well,NN8 1BD,No,,
-Wellington,The William Withering,TF1 1LU,No,,
-Wells,The Quarter Jack,BA5 1SY,No,,
-Wembley,J.J. Moon's,HA9 6AA,No,,
-West Bromwich,The Billiard Hall,B70 7AB,No,,
-West End,The Lord Moon of the Mall,SW1A 2DY,No,,
-West End,The Montagu Pyke,WC2H 0DT,No,,
-West End,The Moon Under Water,WC2H 7LE,No,,
-West Kirby,The Dee Hotel,CH48 4EF,No,,
-Westhoughton,The Robert Shaw,BL5 3AN,No,,
-Weston-super-Mare,Cabot Court Hotel,BS23 2AH,No,,
-Weston-super-Mare,The Dragon Inn,BS23 1QG,No,,
-Weymouth,The Swan,DT4 8EH,No,,
-Weymouth,The William Henry,DT4 8HQ,No,,
-Whickham,The Harry Clasper,NE16 4HF,No,,
-Whitby,The Angel Hotel,YO21 1DH,No,,
-Whitehaven,The Bransty Arch,CA28 7XE,No,,
-Whitley Bay,The Fire Station,NE26 1AB,No,,
-Whitstable,The Peter Cushing,CT5 1DD,No,,
-Whittlesey,The George Hotel,PE7 1AB,No,,
-Wick,The Alexander Bain,KW1 4LP,No,,
-Widnes,The Premier,WA8 6JS,No,,
-Wigan,The Brocket Arms,WN1 2DD,No,,
-Wigan,The Moon Under Water,WN1 1PE,No,,
-Wigston,The William Wygston,LE18 1DR,No,,
-Willenhall,The Malthouse,WV13 2BG,No,,
-Wilmslow,The Bollin Fee,SK9 1HE,No,,
-Wimbledon,The Wibbas Down Inn,SW19 1QT,No,,
-Wimborne,The Man in the Wall,BH21 1NF,No,,
-Winchester,The Old Gaolhouse,SO23 8RZ,No,,
-Windsor,The King and Castle,SL4 1PL,No,,
-Windsor,The Windlesora,SL4 1BB,No,,
-Winsford,The Queens Arms,CW7 1AT,No,,
-Wisbech,The Wheatsheaf Inn,PE13 1BL,No,,
-Wishaw,The Wishaw Malt,ML2 7BL,No,,
-Witham,The Battesford Court,CM8 1AH,No,,
-Witney,The Company of Weavers,OX28 6AD,No,,
-Woking,The Herbert Wells,GU21 5AJ,No,,
-Wokingham,The Gig House,RG40 2LD,No,,
-Wolverhampton,The Moon Under Water,WV1 1EQ,No,,
-Wombwell,The Horseshoe,S73 0AA,No,,
-Wood Green,Spouter's Corner,N22 6EJ,No,,
-Woolwich,The Great Harry,SE18 6PQ,No,,
-Worcester,The Crown,WR1 3LL,No,,
-Worcester,The Postal Order,WR1 1DN,No,,
-Workington,The Henry Bessemer,CA14 2NA,No,,
-Worksop,The Liquorice Gardens,S80 2AS,No,,
-Worthing,The Sir Timothy Shelley,BN11 1EG,No,,
-Worthing,The Three Fishes,BN11 1BE,No,,
-Wrexham,The Elihu Yale,LL11 1RR,No,,
-Wrexham,The North and South Wales Bank,LL13 8HP,No,,
-Yardley,The William Tyler,B25 8UT,No,,
-Yate,Thorn's Farm,BS37 4BB,No,,
-Yeovil,The William Dampier,BA20 1LN,No,,
-York,The Postern Gate,YO1 9NX,No,,
-York,The Punch Bowl,YO24 1AU,No,,
+Falmouth,The Packet Station,TR11 3QA,No,,"50.1550070,-5.0730060"
+Fareham,The Crown Inn,PO16 0JW,No,,"50.8521760,-1.1763400"
+Fareham,The Lord Arthur Lee,PO16 0EP,No,,"50.8523730,-1.1813510"
+Farnborough,The Tilly Shilling,GU14 7PG,No,,"51.2932840,-0.7572780"
+Farringdon,The Sir John Oldcastle,EC1M 3JF,No,,"51.5198730,-0.1060240"
+Faversham,The Leading Light,ME13 8NZ,No,,"51.3137630,0.8913890"
+Feltham,The Moon on the Square,TW13 4AU,No,,"51.4465900,-0.4109770"
+Ferndown,The Nightjar,BH22 9JA,No,,"50.8033850,-1.8903380"
+Finsbury Park,The White Lion of Mortimer,N4 3PX,No,,"51.5689120,-0.1117790"
+Fleet,The Prince Arthur,GU51 4BX,No,,"51.2787670,-0.8456310"
+Fleetwood,The Thomas Drummond,FY7 6JE,No,,"53.9218090,-3.0115480"
+Folkestone,The Samuel Peto,CT20 1EY,No,,"51.0804060,1.1812940"
+Forest Gate,The Hudson Bay,E7 9PA,No,,"51.5449990,0.0262910"
+Forest Hill,The Capitol,SE23 3TW,No,,"51.4388600,-0.0544700"
+Fort William,The Great Glen,PH33 6AD,No,,"56.8169110,-5.1126030"
+Fraserburgh,The Saltoun Inn,AB43 9DA,No,,"57.6940980,-2.0047170"
+Fulham,Oyster Rooms,SW6 1AA,No,,"51.4800800,-0.1966600"
+Gainsborough,The Sweyn Forkbeard,DN21 2DP,No,,"53.3989270,-0.7767520"
+Galashiels,Hunters Hall,TD1 1SE,No,,"55.6178860,-2.8104950"
+Gateshead,The Tilley Stone,NE8 1EE,No,,"54.9615120,-1.6019150"
+Gateshead,Wetherspoons,NE11 9YP,No,,"54.9576410,-1.6685550"
+Gatwick Airport,The Beehive,RH6 0RN,No,,"51.1607770,-0.1903180"
+Gatwick Airport,The Flying Horse,RH6 0NN,No,,"51.1559900,-0.1630490"
+Gatwick Airport,The Red Lion,RH6 0PJ,No,,"51.1611190,-0.1775910"
+Glasgow,Camperdown Place,G2 1DR,No,,"55.8619730,-4.2518110"
+Glasgow,Sir John Stirling Maxwell,G41 3NN,No,,"55.8284770,-4.2839970"
+Glasgow,The Counting House,G1 2DH,No,,"55.8608160,-4.2522230"
+Glasgow,The Crystal Palace,G1 4QD,No,,"55.8579740,-4.2577000"
+Glasgow,The Edward G. Wylie,G2 6TS,No,,"55.8610240,-4.2614560"
+Glasgow,The Esquire House,G12 0AU,No,,"55.8883620,-4.3218500"
+Glasgow,The Hengler's Circus,G2 3HU,No,,"55.8656890,-4.2672730"
+Glasgow,The Kirky Puffer,G66 1NG,No,,"55.9379110,-4.1541870"
+Glasgow,The Lord of the Isles,PA4 8XQ,No,,"55.8789960,-4.3713820"
+Glasgow,The Sir John Moore,G2 8QW,No,,"55.8588910,-4.2601180"
+Glasgow,The Society Room,G2 2JJ,No,,"55.8622370,-4.2575320"
+Glenrothes,The Golden Acorn,KY7 5NA,No,,"56.1964840,-3.1676890"
+Glossop,The Smithy Fold,SK13 8HT,No,,"53.4420140,-1.9494080"
+Gloucester,The Lord High Constable of England,GL1 2EH,No,,"51.8619220,-2.2528010"
+Gloucester,The Regal,GL1 1RP,No,,"51.8662740,-2.2439520"
+Gloucester,The Water Poet,GL1 1PN,No,,"51.8636710,-2.2419630"
+Godalming,The Jack Phillips,GU7 1DY,No,,"51.1859460,-0.6119700"
+Goole,City and County,DN14 5DR,No,,"53.7037170,-0.8703670"
+Gosport,The Star,PO12 1DF,No,,"50.7954700,-1.1210930"
+Grangemouth,The Earl of Zetland,FK3 8AF,No,,"56.0191980,-3.7220680"
+Grantham,The Tollemache Inn,NG31 6PY,No,,"52.9105050,-0.6399300"
+Gravesend,The Robert Pocock,DA12 1AH,No,,"51.4417290,0.3691090"
+Great Malvern,The Foley Arms Hotel,WR14 4QS,No,,"52.1123380,-2.3300920"
+Great Yarmouth,The Troll Cart,NR30 2AF,No,,"52.6075790,1.7306180"
+Greenock,The James Watt,PA15 1DD,No,,"55.9467900,-4.7528330"
+Greenwich,The Gate Clock,SE10 9RB,No,,"51.4816850,-0.0122210"
+Grimsby,Ice Barque,DN31 1XZ,No,,"53.5653360,-0.0888760"
+Grimsby,The Yarborough Hotel,DN31 1JN,No,,"53.5638110,-0.0879930"
+Guildford,The Rodboro Buildings,GU1 4SB,No,,"51.2365440,-0.5780310"
+Hackney,Baxter's Court,E8 1HE,No,,"51.5443990,-0.0551490"
+Hailsham,The George Hotel,BN27 1AD,No,,"50.8619370,0.2593160"
+Halesowen,The William Shenstone,B63 4AB,No,,"52.4495470,-2.0515580"
+Halifax,The Barum Top Inn,HX1 1NX,No,,"53.7227550,-1.8596610"
+Halifax,The Percy Shaw,HX1 1YA,No,,"53.7239180,-1.8623090"
+Hammersmith,The Plough & Harrow,W6 0QU,No,,"51.4928240,-0.2328190"
+Hammersmith,The William Morris,W6 0QA,No,,"51.4930760,-0.2256640"
+Hanham,The Jolly Sailor,BS15 3DQ,No,,"51.4492820,-2.5170500"
+Hanley,The Reginald Mitchell,ST1 1NQ,No,,"53.0253990,-2.1749330"
+Harlow,The William Aylmer,CM20 1DG,No,,"51.7711750,0.0917020"
+Harringay,The Toll Gate,N8 0PS,No,,"51.5898770,-0.1059000"
+Harrogate,The Winter Gardens,HG1 2RR,No,,"53.9942620,-1.5445210"
+Harrow,The Moon on the Hill,HA1 2AW,No,,"51.5794660,-0.3343000"
+Harrow,The New Moon,HA3 8DN,No,,"51.5874170,-0.3036660"
+Hartlepool,The King Johns Tavern,TS26 9HD,No,,"54.6846020,-1.2177820"
+Hartlepool,The Ward Jackson,TS24 7EU,No,,"54.6852040,-1.2094710"
+Haslemere,The Swan Inn,GU27 2HG,No,,"51.0878780,-0.7097740"
+Hastings,The John Logie Baird,TN34 1BE,No,,"50.8565400,0.5786140"
+Hatch End,The Moon and Sixpence,HA5 4HS,No,,"51.6083730,-0.3732020"
+Hatfield,Harpsfield Hall,AL10 9RQ,No,,"51.7635990,-0.2412350"
+Havant,The Parchment Makers,PO9 1HE,No,,"50.8532930,-0.9848040"
+Haverfordwest,The William Owen,SA61 1BG,No,,"51.8014940,-4.9678030"
+Haverhill,The Drabbet Smock,CB9 8BB,No,,"52.0829390,0.4386420"
+Hawick,The Bourtree,TD9 9HL,No,,"55.4255240,-2.7836070"
+Hayes,The Botwell Inn,UB3 3EB,No,,"51.5083610,-0.4165240"
+Hazel Grove,The Wilfred Wood,SK7 4DQ,No,,"53.3798340,-2.1219360"
+Heanor,The Red Lion,DE75 7QG,No,,"53.0137950,-1.3584830"
+Heathrow,The Crown Rivers,TW6 2GA,No,,"51.4713010,-0.4878260"
+Heathrow,Wetherspoon Express,TW6 2GA,No,,"51.4713010,-0.4878261"
+Heathrow Airport,The Flying Chariot,TW6 1EW,No,,"51.4697080,-0.4518420"
+Hednesford,Hedgeford Lodge,WS12 1DL,No,,"52.7091570,-2.0004610"
+Helensburgh,The Henry Bell,G84 8AS,No,,"56.0039690,-4.7377780"
+Helston,The Coinage Hall,TR13 8ER,No,,"50.1009720,-5.2757000"
+Hemel Hempstead,The Full House,HP1 1EZ,No,,"51.7531230,-0.4727680"
+Henley-on-Thames,The Catherine Wheel,RG9 2AR,No,,"51.5378290,-0.9030800"
+Hereford,The Kings Fee,HR1 2BJ,No,,"52.0586620,-2.7095560"
+Herne Bay,The Saxon Shore,CT6 5JQ,No,,"51.3727210,1.1262110"
+Hertford,The Six Templars,SG14 1PS,No,,"51.7960050,-0.0791180"
+Hexham,The Forum,NE46 3PB,No,,"54.9718620,-2.1013050"
+Heywood,The Edwin Waugh,OL10 4LY,No,,"53.5938290,-2.2225100"
+High Wycombe,The Falcon,HP11 2AX,No,,"51.6291870,-0.7511860"
+High Wycombe,The William Robert Loosley,HP11 2DN,No,,"51.6315560,-0.7549060"
+Highgate,The Gatehouse,N6 4BD,No,,"51.5719630,-0.1503550"
+Hinckley,The Baron of Hinckley,LE10 0AZ,No,,"52.5408800,-1.3743460"
+Hitchin,The Angel Vaults Inn,SG5 1AE,No,,"51.9465070,-0.2785690"
+Hoddesdon,The Star,EN11 8TN,No,,"51.7615460,-0.0120230"
+Holborn,Penderel's Oak,WC1V 7HP,No,,"51.5178570,-0.1154330"
+Holborn,Shakespeares Head,WC2B 6BG,No,,"51.5171030,-0.1194420"
+Holloway,The Coronet,N7 6NJ,No,,"51.5549040,-0.1147240"
+Holywell,The Market Cross,CH8 7LA,No,,"53.2743740,-3.2225500"
+Honiton,The Star Inn,EX14 1BS,No,,"50.7982380,-3.1881080"
+Horley,The Jack Fairman,RH6 7PZ,No,,"51.1712080,-0.1625870"
+Hornchurch,J.J. Moon's,RM12 4UN,No,,"51.5628430,0.2152140"
+Horsham,The Lynd Cross,RH12 1QR,No,,"51.0638340,-0.3324940"
+Houghton Le Spring,The Wild Boar,DH4 4BN,No,,"54.8432630,-1.4686950"
+Hounslow,The Moon Under Water,TW3 3LF,No,,"51.4669890,-0.3693380"
+Hove,The Cliftonville Inn,BN3 3YE,No,,"50.8294090,-0.1738390"
+Hoylake,Hoylake Lights,CH47 3BB,No,,"53.3928960,-3.1761680"
+Hucknall,The Pilgrim Oak,NG15 7AX,No,,"53.0384440,-1.2037430"
+Huddersfield,The Cherry Tree,HD1 1BA,No,,"53.6472110,-1.7823070"
+Huddersfield,The Lord Wilson,HD1 2PZ,No,,"53.6459140,-1.7807550"
+Hyde,The Cotton Bale,SK14 2LX,No,,"53.4516800,-2.0783680"
+Ickenham,The Tichenham Inn,UB10 8DF,No,,"51.5644660,-0.4449470"
+Ilford,The Great Spoon of Ilford,IG1 4LZ,No,,"51.5622400,0.0684220"
+Ilfracombe,The Admiral Collingwood,EX34 9AP,No,,"51.1811840,-4.0953570"
+Ilkeston,The Observatory,DE7 5QA,No,,"52.9713840,-1.3088990"
+Ilkley,The Lister Arms,LS29 9LB,No,,"53.9255950,-1.8256180"
+Inverness,The King's Highway,IV1 1EN,No,,"57.4797780,-4.2274920"
+Inverurie,The Gordon Highlander,AB51 3QQ,No,,"57.2845620,-2.3784690"
+Ipswich,The Cricketers,IP1 3JA,No,,"52.0596710,1.1546350"
+Ipswich,The Robert Ransome,IP1 3BE,No,,"52.0589550,1.1551830"
+Ipswich,Wetherspoons,IP1 1DB,No,,"52.0578140,1.1521120"
+Irvine,The Auld Brig,KA12 8EH,No,,"55.6129040,-4.6714250"
+Islington,The Glass Works,N1 0PS,No,,"51.5344590,-0.1066010"
+Islington,The White Swan,N1 1RY,No,,"51.5457390,-0.1034790"
+Keighley,The Livery Rooms,BD21 3AA,No,,"53.8688490,-1.9100110"
+Kendal,The Miles Thompson,LA9 4JH,No,,"54.3268980,-2.7487020"
+Keswick,The Chief Justice of the Common Pleas,CA12 5JY,No,,"54.6020700,-3.1381150"
+Kettering,The Earl of Dalkeith,NN16 0BS,No,,"52.3993930,-0.7261480"
+Kidderminster,The Penny Black,DY10 2AZ,No,,"52.3882980,-2.2489530"
+Kilmarnock,The Wheatsheaf Inn,KA1 1JG,No,,"55.6110550,-4.4973780"
+King's Lynn,Globe Hotel,PE30 1EZ,No,,"52.7557560,0.3937220"
+King's Lynn,The Lattice House,PE30 1EG,No,,"52.7557010,0.3968610"
+Kingsbury,J.J. Moon's,NW9 9EL,No,,"51.5845880,-0.2804020"
+Kingston Upon Hull,The Admiral of the Humber,HU1 2NT,No,,"53.7430970,-0.3433790"
+Kingston Upon Hull,The Three John Scotts,HU1 1XW,No,,"53.7435240,-0.3330430"
+Kingston Upon Hull,The William Wilberforce,HU1 2JD,No,,"53.7424640,-0.3349950"
+Kingston Upon Hull,The Zachariah Pearson,HU5 1LH,No,,"53.7624510,-0.3502550"
+Kingston upon Thames,The Kings Tun,KT1 1QT,No,,"51.4115860,-0.3008930"
+Kirkby,The Gold Balance,L32 8RR,No,,"53.4813560,-2.8868740"
+Kirkby in Ashfield,The Regent,NG17 7BQ,No,,"53.0993920,-1.2438990"
+Kirkcaldy,The Robert Nairn,KY1 1EH,No,,"56.1118070,-3.1582560"
+Knaresborough,The Crown Inn,HG5 0HB,No,,"54.0087690,-1.4679020"
+Lanark,The Clydesdale Inn,ML11 9ET,No,,"55.6738950,-3.7812700"
+Lancaster,The Green Ayre,LA1 1LU,No,,"54.0497430,-2.7995650"
+Lancaster,The Sir Richard Owen,LA1 1RQ,No,,"54.0468890,-2.8003200"
+Leatherhead,The Edmund Tylney,KT22 8AW,No,,"51.2951560,-0.3275550"
+Lee Green,The Edmund Halley,SE12 8RG,No,,"51.4556100,0.0117790"
+Leeds,Beckett's Bank,LS1 5HU,No,,"53.7984690,-1.5466890"
+Leeds,Stick or Twist,LS2 8PD,No,,"53.8026700,-1.5428020"
+Leeds,The Clothiers Arms,LS19 7PP,No,,"53.8660760,-1.6841100"
+Leeds,The Cuthbert Brodrick,LS2 3AD,No,,"53.8009640,-1.5480590"
+Leeds,The Hedley Verity,LS1 3HQ,No,,"53.8036460,-1.5491390"
+Leeds,The Three Hulats,LS7 3NB,No,,"53.8251080,-1.5344610"
+Leeds,Wetherspoons,LS1 4DT,No,,"53.7941670,-1.5475860"
+Leek,The Green Dragon,ST13 5DS,No,,"53.1060400,-2.0269950"
+Leicester,The Corn Exchange,LE1 5GG,No,,"52.6341420,-1.1342790"
+Leicester,The High Cross,LE1 4JB,No,,"52.6356170,-1.1380920"
+Leicester,The Last Plantagenet,LE1 6FD,No,,"52.6325890,-1.1285030"
+Leicester,The White House,LE7 9SE,No,,"52.6435210,-1.0490230"
+Leigh,The Thomas Burke,WN7 1QR,No,,"53.4998270,-2.5187410"
+Leigh-on-Sea,The Elms,SS9 3ND,No,,"51.5476250,0.6573680"
+Leighton Buzzard,The Swan Hotel,LU7 1EA,No,,"51.9158430,-0.6632660"
+Leominster,The Duke's Head,HR6 8LR,No,,"52.2272160,-2.7377450"
+Letchworth,The Three Magnets,SG6 3EW,No,,"51.9791820,-0.2263970"
+Lewisham,The Watch House,SE13 6JP,No,,"51.4598300,-0.0120910"
+Leyland,The Leyland Lion,PR25 2SA,No,,"53.6956090,-2.6932870"
+Leyton,The Drum,E10 7EQ,No,,"51.5751330,-0.0136590"
+Leytonstone,The Walnut Tree,E11 1HH,No,,"51.5694970,0.0120980"
+Lichfield,The Acorn Inn,WS13 6JJ,No,,"52.6837320,-1.8254200"
+Lichfield,The Gatehouse,WS13 6PW,No,,"52.6826690,-1.8302910"
+Lincoln,Ritz,LN5 7PJ,No,,"53.2238650,-0.5436070"
+Lincoln,The Forum,LN2 1DY,No,,"53.2294420,-0.5394330"
+Lincoln,The Square Sail,LN1 1YW,No,,"53.2297910,-0.5467170"
+Lisburn,The Tuesday Bell,BT28 1TS,No,,"54.5094110,-6.0467540"
+Littlehampton,The George Inn,BN17 5BG,No,,"50.8092440,-0.5438220"
+Liverpool,Childwall Fiveways Hotel,L15 6XS,No,,"53.3967800,-2.8964680"
+Liverpool,The Barker's Brewery,L36 9UJ,No,,"53.4116820,-2.8398390"
+Liverpool,The Fall Well,L1 1LS,No,,"53.4066130,-2.9801020"
+Liverpool,The Lime Kiln,L1 4NR,No,,"53.4034720,-2.9805560"
+Liverpool,The Raven,L9 2BU,No,,"53.4630070,-2.9593790"
+Liverpool,The Richard John Blackler,L1 1HU,No,,"53.4059080,-2.9795140"
+Liverpool,The Thomas Frost,L4 4AJ,No,,"53.4367070,-2.9725300"
+Liverpool,The Welkin,L1 6DS,No,,"53.4059000,-2.9858770"
+Liverpool,Wetherspoon Express,L24 1YD,No,,"53.3373090,-2.8549270"
+Liverpool Station,The North Western,L1 1RJ,No,,"53.4072590,-2.9770030"
+Livingston,The Almond Bank,EH54 6HP,No,,"55.8802770,-3.5195650"
+Livingston,The NewYearField,EH54 6QX,No,,"55.8827320,-3.5194050"
+Llandudno,The Palladium,LL30 2DD,No,,"53.3249370,-3.8326090"
+Llanelli,The York Palace,SA15 3YA,No,,"51.6808810,-4.1631850"
+Long Eaton,The Twitchel Inn,NG10 1ED,No,,"52.8963550,-1.2678160"
+Loughborough,The Amber Rooms,LE11 5BE,No,,"52.7732900,-1.2094330"
+Loughborough,The Moon & Bell,LE11 3HA,No,,"52.7690720,-1.2078200"
+Loughton,The Last Post,IG10 1BB,No,,"51.6468970,0.0551440"
+Louth,The Joseph Morton,LN11 9EZ,No,,"53.3652850,-0.0043850"
+Lowestoft,The Joseph Conrad,NR32 1BA,No,,"52.4738850,1.7500730"
+Luton,The London Hatter,LU1 3ET,No,,"51.8773470,-0.4119050"
+Luton,The White House,LU1 1SA,No,,"51.8814780,-0.4188640"
+Lymington,The Six Bells,SO41 9ND,No,,"50.7574570,-1.5461280"
+Lytham,The Railway Hotel,FY8 5DH,No,,"53.7379100,-2.9566100"
+Macclesfield,The Society Rooms,SK11 7NA,No,,"53.2566510,-2.1235930"
+Maesteg,The Sawyer's Arms,CF34 9DF,No,,"51.6082160,-3.6593340"
+Maghull,The Frank Hornby,L31 6BR,No,,"53.5156230,-2.9383530"
+Maidenhead,The Bear,SL6 1QJ,No,,"51.5232990,-0.7178320"
+Maidenhead,The Greyhound,SL6 1HT,No,,"51.5202520,-0.7212470"
+Maidstone,The Muggleton Inn,ME14 1HJ,No,,"51.2738530,0.5225540"
+Maidstone,The Society Rooms,ME14 1RF,No,,"51.2772530,0.5217080"
+Maldon,Rose & Crown,CM9 5EP,No,,"51.7312540,0.6802950"
+Maltby,The Queens Hotel,S66 7NQ,No,,"53.4235970,-1.1955730"
+Manchester,Castle in the Air,M17 8DD,No,,"53.4686370,-2.3655950"
+Manchester,Ford Madox Brown,M14 5FT,No,,"53.4578900,-2.2264370"
+Manchester,The Gateway,M20 5PG,No,,"53.4079880,-2.2204400"
+Manchester,The Great Central,M14 6NL,No,,"53.4415090,-2.2191990"
+Manchester,The Moon Under Water,M3 2FN,No,,"53.4828920,-2.2470040"
+Manchester,The Seven Stars,M4 2BS,No,,"53.4851780,-2.2407480"
+Manchester,The Waterhouse,M2 4EG,No,,"53.4790080,-2.2427020"
+Mansfield,The Court House,NG18 1HX,No,,"53.1440770,-1.1970670"
+Mansfield,The Stag and Pheasant,NG18 1NU,No,,"53.1454230,-1.1954720"
+Mansfield,The Widow Frost,NG18 1NB,No,,"53.1461740,-1.1948000"
+March,The Hippodrome,PE15 8AQ,No,,"52.5513260,0.0870000"
+Margate,The Mechanical Elephant,CT9 1XJ,No,,"51.3865590,1.3773770"
+Market Drayton,The Hippodrome,TF9 1PS,No,,"52.9057790,-2.4854310"
+Market Harborough,The Sugar Loaf,LE16 7NJ,No,,"52.4784990,-0.9222610"
+Marylebone,The Metropolitan Bar,NW1 5LA,No,,"51.5231290,-0.1569040"
+Matlock,The Crown,DE4 3AT,No,,"53.1384580,-1.5559800"
+Melksham,The Bear,SN12 6LL,No,,"51.3752510,-2.1390520"
+Melton Mowbray,The Kettleby Cross,LE13 0UJ,No,,"52.7661780,-0.8893840"
+Mere Green,The Mare Pool,B74 2UG,No,,"52.5857850,-1.8291890"
+Merthyr Tydfil,Y Dic Penderyn,CF47 8AP,No,,"51.7469100,-3.3782760"
+Mexborough,The Old Market Hall,S64 9QA,No,,"53.4927990,-1.2873860"
+Middlesbrough,Swatter's Carr,TS1 3QW,No,,"54.5702570,-1.2383940"
+Middlesbrough,The Isaac Wilson,TS1 1SF,No,,"54.5779630,-1.2375230"
+Middlesbrough,The Resolution,TS1 5UA,No,,"54.5757850,-1.2384150"
+Middleton,The Harbord Harbord,M24 6TE,No,,"53.5503600,-2.1980270"
+Mile End,The Half Moon,E1 4AA,No,,"51.5222430,-0.0455120"
+Milton Keynes,Lloyds No.1 Bar,MK9 3PU,No,,"52.0438170,-0.7493020"
+Milton Keynes,The Moon Under Water,MK9 3NN,No,,"52.0429600,-0.7559160"
+Milton Keynes,The Secklow Hundred,MK9 2EA,No,,"52.0392110,-0.7609920"
+Milton Keynes,Wetherspoons,MK9 1EA,No,,"52.0380100,-0.7673380"
+Minehead,The Duke of Wellington,TA24 5NH,No,,"51.2057480,-3.4791680"
+Mitcham,The White Lion of Mortimer,CR4 2JD,No,,"51.4069500,-0.1635060"
+Mold,The Gold Cape,CH7 1ES,No,,"53.1659800,-3.1409630"
+Monmouth,The King's Head,NP25 3DY,No,,"51.8121370,-2.7157730"
+Morecambe,The Eric Bartholomew,LA4 5DD,No,,"54.0724810,-2.8659610"
+Moreton,The Mockbeggar Hall,CH46 0SL,No,,"53.4002510,-3.1140720"
+Morley,The Picture House,LS27 8HE,No,,"53.7440110,-1.5998740"
+Morpeth,The Electrical Wizard,NE61 1PS,No,,"55.1670770,-1.6909800"
+Moseley,The Elizabeth of York,B13 8JG,No,,"52.4461240,-1.8871970"
+Motherwell,The Brandon Works,ML1 1JJ,No,,"55.7911160,-3.9920640"
+Musselburgh,The David Macbeth Moir,EH21 6AG,No,,"55.9433660,-3.0575560"
+Muswell Hill,The Mossy Well,N10 3SH,No,,"51.5908620,-0.1421530"
+Nailsea,The Glass Maker,BS48 1RD,No,,"51.4323210,-2.7585850"
+Neath,The David Protheroe,SA11 1LS,No,,"51.6616890,-3.8063390"
+New Barnet,The Railway Bell,EN4 8RR,No,,"51.6501780,-0.1744360"
+New Brighton,The Master Mariner,CH45 2JT,No,,"53.4397450,-3.0439130"
+New Ferry,The John Masefield,CH62 5AD,No,,"53.3612310,-2.9981140"
+New Malden,The Watchman,KT3 4ES,No,,"51.3992160,-0.2552470"
+Newark-on-Trent,The Sir John Arderne,NG24 1DT,No,,"53.0767610,-0.8091140"
+Newbury,The Diamond Tap,RG14 5BX,No,,"51.3996040,-1.3222140"
+Newbury,The Hatchet Inn,RG14 5BD,No,,"51.4008750,-1.3226270"
+Newcastle upon Tyne,The Five Swans,NE1 7PG,No,,"54.9776860,-1.6124730"
+Newcastle upon Tyne,The Job Bulman,NE3 1AA,No,,"55.0049630,-1.6195120"
+Newcastle upon Tyne,The Keel Row,NE1 5RF,No,,"54.9719410,-1.6171840"
+Newcastle upon Tyne,The Mile Castle,NE1 5XU,No,,"54.9703670,-1.6168550"
+Newcastle upon Tyne,The Quayside,NE1 3RN,No,,"54.9673440,-1.6101670"
+Newcastle upon Tyne,The Union Rooms,NE1 1TT,No,,"54.9699380,-1.6148600"
+Newcastle-under-Lyme,The Arnold Machin,ST5 1PB,No,,"53.0119740,-2.2256880"
+Newmarket,The Golden Lion,CB8 8LB,No,,"52.2452190,0.4078910"
+Newport,The Godfrey Morgan,NP19 8EG,No,,"51.5897180,-2.9786230"
+Newport,The John Wallace Linton,NP20 4AD,No,,"51.5882870,-2.9979920"
+Newport,The Man in the Moon,PO30 5HB,No,,"50.7001650,-1.2962350"
+Newport,The Queen's Hotel,NP20 4AN,No,,"51.5875290,-2.9993900"
+Newport,The Tom Toya Lewis,NP20 1LW,No,,"51.5835700,-2.9934000"
+Newport,The William Coppin,PO30 2BX,No,,"50.7012540,-1.2889410"
+Newquay,The Cribbar,TR7 1ER,No,,"50.4136530,-5.0858800"
+Newquay,The Towan Blystra,TR7 1SG,No,,"50.4143700,-5.0771700"
+Newton Abbot,The Richard Hopkins,TQ12 2EW,No,,"50.5306360,-3.6070470"
+Newtown,The Black Boy,SY16 2BQ,No,,"52.5163530,-3.3158590"
+Newtownards,The Spirit Merchant,BT23 4LP,No,,"54.5932080,-5.7019770"
+Norbury,The Moon Under Water,SW16 4AU,No,,"51.4070770,-0.1215590"
+North Cheam,The Nonsuch Inn,SM3 9AA,No,,"51.3721090,-0.2257040"
+North Finchley,The Tally Ho,N12 0BP,No,,"51.6137360,-0.1764180"
+Northampton,The Cordwainer,NN1 2AQ,No,,"52.2379690,-0.8924220"
+Northampton,The Moon on the Square,NN1 2EA,No,,"52.2387310,-0.8969870"
+Northwich,The Penny Black,CW9 5AB,No,,"53.2621360,-2.5088280"
+Northwood Hills,The William Jolle,HA6 1NZ,No,,"51.6010890,-0.4092440"
+Norwich,The Bell Hotel,NR1 3QB,No,,"52.6272260,1.2951490"
+Norwich,The Glass House,NR3 1LA,No,,"52.6326890,1.2978810"
+Norwich,The Queen of Iceni,NR1 1ED,No,,"52.6234320,1.3077290"
+Norwich,The Whiffler,NR6 5JB,No,,"52.6545120,1.2692070"
+Nottingham,Lloyds No.1 Bar,NG1 1NL,No,,"52.9538010,-1.1444330"
+Nottingham,The Company Inn,NG1 7EH,No,,"52.9481010,-1.1493980"
+Nottingham,The Free Man,NG4 1JD,No,,"52.9661380,-1.1094530"
+Nottingham,The Gooseberry Bush,NG1 4GL,No,,"52.9604210,-1.1538010"
+Nottingham,The Joseph Else,NG1 2JS,No,,"52.9527910,-1.1503030"
+Nottingham,The Roebuck Inn,NG1 6FH,No,,"52.9527600,-1.1522390"
+Nottingham,The Samuel Hall,NG5 2JN,No,,"52.9817540,-1.1463540"
+Nottingham,The Trent Bridge Inn,NG2 6AA,No,,"52.9371860,-1.1341670"
+Nottingham,The Woodthorpe Top,NG3 5JL,No,,"52.9842100,-1.1242900"
+Nuneaton,The Felix Holt,CV11 5BS,No,,"52.5231470,-1.4691170"
+Nuneaton,The William White,CV11 4EU,No,,"52.5235490,-1.4664150"
+Oadby,The Lord Keeper of the Great Seal,LE2 5BF,No,,"52.5996560,-1.0840210"
+Oakham,The Captain Noel Newton,LE15 6AJ,No,,"52.6700420,-0.7304180"
+Oban,The Corryvreckan,PA34 4LW,No,,"56.4122120,-5.4756580"
+Oldbury,The Court of Requests,B69 3AF,No,,"52.5048090,-2.0157200"
+Oldham,The Shay Wake,OL2 8EQ,No,,"53.5783250,-2.0927390"
+Oldham,The Squire Knott,OL1 3SL,No,,"53.5423760,-2.1090180"
+Oldham,The Up Steps Inn,OL1 3AJ,No,,"53.5423270,-2.1134400"
+Ormskirk,The Court Leet,L39 2XA,No,,"53.5678570,-2.8852710"
+Orpington,The Harvest Moon,BR6 0LQ,No,,"51.3778410,0.1013830"
+Oswestry,The Wilfred Owen,SY11 1AF,No,,"52.8592010,-3.0563460"
+Otley,The Bowling Green,LS21 3AB,No,,"53.9037580,-1.6928670"
+Oxford,The Four Candles,OX1 2BE,No,,"51.7533980,-1.2618680"
+Oxford,The Swan & Castle,OX1 1AY,No,,"51.7513580,-1.2620610"
+Oxford,The William Morris,OX4 3LR,No,,"51.7324020,-1.2171620"
+Oxted,The Oxted Inn,RH8 9HR,No,,"51.2575060,-0.0045780"
+Paignton,Talk of the Town,TQ4 6AL,No,,"50.4349930,-3.5617450"
+Paignton,The Isaac Merritt,TQ3 3AA,No,,"50.4373000,-3.5673830"
+Paisley,The Last Post,PA1 1BN,No,,"55.8464160,-4.4243680"
+Paisley,The Sanderling,PA3 2ST,No,,"55.8646530,-4.4320900"
+Paisley,The Sandpiper,PA3 2SW,No,,"55.8646530,-4.4320901"
+Palmers Green,The Alfred Herring,N13 5TT,No,,"51.6189440,-0.1071890"
+Peckham,The Kentish Drovers,SE15 5RS,No,,"51.4737910,-0.0693850"
+Peebles,The Cross Keys,EH45 8RS,No,,"55.6527790,-3.1885270"
+Penarth,The Bears Head,CF64 1JD,No,,"51.4394570,-3.1754100"
+Penge,The Moon & Stars,SE20 7QS,No,,"51.4123920,-0.0505460"
+Penrith,The Dog Beck,CA11 8JH,No,,"54.6618500,-2.7499980"
+Penzance,The Tremenheere,TR18 2JA,No,,"50.1185540,-5.5365750"
+Perranporth,The Green Parrot,TR6 0JP,No,,"50.3443630,-5.1560560"
+Perth,The Capital Asset,PH1 5LQ,No,,"56.3974760,-3.4263560"
+Peterborough,The College Arms,PE1 1RS,No,,"52.5750450,-0.2419240"
+Peterborough,The Draper's Arms,PE1 1LZ,No,,"52.5729740,-0.2459470"
+Peterhead,Cross Keys,AB42 1TH,No,,"57.5055080,-1.7788700"
+Peterlee,The Five Quarter,SR8 1AB,No,,"54.7583210,-1.3336530"
+Petersfield,The Red Lion,GU31 4AE,No,,"51.0050740,-0.9336350"
+Plymouth,The Britannia Inn,PL2 3AA,No,,"50.3858980,-4.1581740"
+Plymouth,The Gog and Magog,PL1 2LA,No,,"50.3678170,-4.1373710"
+Plymouth,The Mannamead,PL4 6JH,No,,"50.3824470,-4.1336540"
+Plymouth,The Union Rooms,PL1 2SU,No,,"50.3696010,-4.1474080"
+Plympton,The Stannary Court,PL7 2AA,No,,"50.3878650,-4.0514710"
+Pontefract,The Blue Bell,WF9 4LQ,No,,"53.6136260,-1.3543570"
+Pontefract,The Broken Bridge,WF8 1PD,No,,"53.6925570,-1.3085060"
+Pontypool,The John Capel Hanbury,NP4 6LT,No,,"51.7041980,-3.0424070"
+Pontypridd,The Tumble Inn,CF37 1BA,No,,"51.5994590,-3.3405250"
+Poole,The Lord Wimborne,BH15 1QD,No,,"50.7161440,-1.9821860"
+Poole,The Quay,BH15 1HJ,No,,"50.7123590,-1.9872430"
+Port Talbot,The Lord Caradoc,SA13 1NW,No,,"51.5941680,-3.7821460"
+Portsmouth,The Isambard Kingdom Brunel,PO1 2DD,No,,"50.7966670,-1.0930610"
+Portsmouth,The John Jacques,PO1 5BZ,No,,"50.7987060,-1.0766740"
+Portsmouth,The Sir Alec Rose,PO6 4TP,No,,"50.8408970,-1.0970890"
+Portsmouth,The Sir John Baker,PO2 0LN,No,,"50.8146450,-1.0794830"
+Portsmouth,The Trafalgar,PO1 1DE,No,,"50.8003140,-1.0914570"
+Potters Bar,The Admiral Byng,EN6 1AF,No,,"51.6990250,-0.1907620"
+Poulton Le Fylde,The Poulton Elk,FY6 7SR,No,,"53.8450920,-2.9924460"
+Poynton,The Kingfisher,SK12 1NJ,No,,"53.3475090,-2.1236160"
+Prescot,The Watch Maker,L34 5QL,No,,"53.4295150,-2.8020520"
+Preston,The Grey Friar,PR1 2EJ,No,,"53.7597840,-2.7010930"
+Preston,The Twelve Tellers,PR1 3BQ,No,,"53.7592640,-2.6962460"
+Prestwick,The Prestwick Pioneer,KA9 1JS,No,,"55.4994300,-4.6105880"
+Pudsey,The Crossed Shuttle,LS28 7BJ,No,,"53.7966470,-1.6618300"
+Purley,The Foxley Hatch,CR8 2LE,No,,"51.3392720,-0.1176560"
+Putney,The Railway,SW15 6TD,No,,"51.4612130,-0.2177590"
+Putney,The Rocket,SW15 2JQ,No,,"51.4653960,-0.2131910"
+Pwllheli,Pen Cob,LL53 5HG,No,,"52.8878940,-4.4176520"
+Rayleigh,The Roebuck,SS6 7BU,No,,"51.5849980,0.6034050"
+Rayners Lane,The Village Inn,HA5 5DY,No,,"51.5767690,-0.3708530"
+Raynes Park,The Edward Rayne,SW20 8ND,No,,"51.4097570,-0.2290350"
+Reading,The Back of Beyond,RG1 3BY,No,,"51.4546460,-0.9634070"
+Reading,The Hope Tap,RG1 1EP,No,,"51.4564620,-0.9745920"
+Reading,The Monks' Retreat,RG1 1HE,No,,"51.4564310,-0.9710530"
+Redcar,The Plimsoll Line,TS10 3DH,No,,"54.6171490,-1.0612920"
+Redditch,The Rising Sun,B98 8AE,No,,"52.3062850,-1.9392660"
+Redditch,The Royal Enfield,B97 4QR,No,,"52.3067450,-1.9429170"
+Redhill,The Sun,RH1 1LY,No,,"51.2409660,-0.1683190"
+Retford,The Dominie Cross,DN22 6JR,No,,"53.3224450,-0.9410240"
+Rhyl,The Sussex,LL18 1SG,No,,"53.3210060,-3.4915370"
+Richmond,The Ralph Fitz Randal,DL10 4AE,No,,"54.4048220,-1.7363860"
+Rickmansworth,The Pennsylvanian,WD3 1AN,No,,"51.6387190,-0.4700530"
+Ripley,The Red Lion,DE5 3BS,No,,"53.0508080,-1.4078350"
+Ripon,The Unicorn Hotel,HG4 1BP,No,,"54.1365070,-1.5229890"
+Rochdale,The Regal Moon,OL16 1HB,No,,"53.6175820,-2.1566800"
+Rochester,The Golden Lion,ME1 1EL,No,,"51.3866350,0.5069770"
+Romford,The Moon and Stars,RM1 1NX,No,,"51.5759540,0.1831180"
+Romford,The World's Inn,RM1 1NX,No,,"51.5759540,0.1831180"
+Ross-on-Wye,The Mail Rooms,HR9 5BS,No,,"51.9138130,-2.5828790"
+Rotherham,The Bluecoat,S60 2DJ,No,,"53.4292650,-1.3550460"
+Rotherham,The Corn Law Rhymer,S60 1PT,No,,"53.4302940,-1.3558430"
+Rotherham,The Rhinoceros,S60 1PL,No,,"53.4319000,-1.3568280"
+Rotherhithe,The Surrey Docks,SE16 2LW,No,,"51.4925700,-0.0456290"
+Rowley Regis,The Britannia,B65 0ES,No,,"52.4749300,-2.0404580"
+Royston,The Manor House,SG8 7BZ,No,,"52.0483500,-0.0227250"
+Rugby,Rupert Brooke,CV21 2TP,No,,"52.3731880,-1.2592650"
+Rugby,The Lawrence Sheriff,CV21 3BW,No,,"52.3713500,-1.2629830"
+Rugeley,The Plaza,WS15 2EJ,No,,"52.7575840,-1.9350270"
+Ruislip Manor,J.J. Moon's,HA4 0AA,No,,"51.5734250,-0.4135720"
+Runcorn,The Ferry Boat,WA7 1LR,No,,"53.3425640,-2.7324540"
+Rushden,The Railway Inn,NN10 0PA,No,,"52.2931960,-0.5991930"
+Rutherglen,An Ruadh-Ghleann,G73 2HY,No,,"55.8280800,-4.2167840"
+Ruthin,The Castle Hotel,LL15 1AA,No,,"53.1147660,-3.3104110"
+Ryde,S. Fowler & Co.,PO33 2LF,No,,"50.7305160,-1.1628460"
+Saffron Walden,The Temeraire,CB10 1AA,No,,"52.0213600,0.2393020"
+Sale,The J. P. Joule,M33 3BR,No,,"53.4238160,-2.3169510"
+Salisbury,The King's Head Inn,SP1 2ND,No,,"51.0685090,-1.7978040"
+Saltcoats,The Salt Cot,KA21 5DS,No,,"55.6344040,-4.7909380"
+Sandbach,The George Inn,CW11 1AL,No,,"53.1429870,-2.3614770"
+Scarborough,The Lord Rosebery,YO11 1JW,No,,"54.2810950,-0.4044390"
+Scunthorpe,The Blue Bell Inn,DN15 7PU,No,,"53.5903400,-0.6545950"
+Seaham,The Hat and Feathers,SR7 7HF,No,,"54.8372600,-1.3336300"
+Sedgley,The Clifton,DY3 1RX,No,,"52.5411020,-2.1226460"
+Selby,The Giant Bellflower,YO8 4HF,No,,"53.7832970,-1.0720460"
+Selsdon,The Sir Julian Huxley,CR2 8LB,No,,"51.3436510,-0.0619220"
+Sevenoaks,The Sennockian,TN13 1UX,No,,"51.2725430,0.1924890"
+Sheerness,The Belle and Lion,ME12 1NL,No,,"51.4406480,0.7611130"
+Sheffield,Sheffield Waterworks Company,S1 4GF,No,,"53.3800350,-1.4744750"
+Sheffield,The Bankers Draft,S1 2GH,No,,"53.3832890,-1.4663020"
+Sheffield,The Benjamin Huntsman,S1 4HP,No,,"53.3792070,-1.4722000"
+Sheffield,The Francis Newton,S10 2LA,No,,"53.3763840,-1.4927680"
+Sheffield,The Rawson Spring,S6 2LN,No,,"53.4015080,-1.4994030"
+Sheffield,The Sheaf Island,S11 8HW,No,,"53.3722530,-1.4811990"
+Sheffield,The Steel Foundry,S9 1EP,No,,"53.4130400,-1.4124610"
+Sheffield,The Swim Inn,S10 2GW,No,,"53.3798780,-1.4817680"
+Sheffield,The Wagon and Horses,S35 2UU,No,,"53.4619370,-1.4659040"
+Sheffield,The Woodseats Palace,S8 0SD,No,,"53.3439180,-1.4784790"
+Shepherds Bush,The Central Bar,W12 8PH,No,,"51.5038710,-0.2193950"
+Shipley,The Sir Norman Rae,BD18 3QB,No,,"53.8335140,-1.7765560"
+Shirley,The Bright Water Inn,SO15 3HY,No,,"50.9188010,-1.4293150"
+Shirley,The Pump House,B90 3AQ,No,,"52.4124390,-1.8277270"
+Shoeburyness,Parsons' Barn,SS3 8UT,No,,"51.5422110,0.7844810"
+Shotton,The Central Hotel,CH5 1BX,No,,"53.2125380,-3.0395920"
+Shrewsbury,Montgomery's Tower,SY1 1RT,No,,"52.7095130,-2.7589410"
+Shrewsbury,The Shrewsbury Hotel,SY1 1PU,No,,"52.7090630,-2.7562690"
+Sidcup,The Tailor's Chalk,DA14 6ED,No,,"51.4262180,0.1036450"
+Sittingbourne,The Golden Hope,ME10 1DR,No,,"51.3398720,0.7315290"
+Sittingbourne,The Summoner,ME10 4AY,No,,"51.3392500,0.7396770"
+Skegness,The Red Lion,PE25 2RU,No,,"53.1442020,0.3366910"
+Skipton,The Devonshire,BD23 2HR,No,,"53.9603230,-2.0159210"
+Sleaford,The Packhorse Inn,NG34 7BH,No,,"52.9998450,-0.4107080"
+Slough,The Moon and Spoon,SL1 1EL,No,,"51.5097180,-0.5965050"
+Solihull,The Assembly Rooms,B91 3AD,No,,"52.4145050,-1.7783190"
+Solihull,The White Swan,B91 3SB,No,,"52.4144830,-1.7805680"
+South Norwood,The William Stanley,SE25 6EP,No,,"51.3985130,-0.0764670"
+South Shields,The Wouldhave,NE33 1TA,No,,"55.0000250,-1.4333760"
+Southampton,The Admiral Sir Lucius Curtis,SO14 3JS,No,,"50.9023890,-1.3944750"
+Southampton,The Giddy Bridge,SO15 2AE,No,,"50.9110270,-1.4050310"
+Southampton,The Standing Order,SO14 2DF,No,,"50.9006790,-1.4036550"
+Southend-on-Sea,The Last Post,SS1 1AS,No,,"51.5364970,0.7124860"
+Southgate,The New Crown,N14 5PH,No,,"51.6335320,-0.1309450"
+Southport,The Sir Henry Segrave,PR8 1RH,No,,"53.6458050,-3.0112520"
+Southport,The Willow Grove,PR9 0AG,No,,"53.6493780,-3.0043180"
+Southsea,The Lord Palmerston,PO5 3PT,No,,"50.7841090,-1.0891470"
+Sowerby Bridge,The Commercial Inn,HX6 2LA,No,,"53.7094190,-1.9084720"
+Spalding,The Ivy Wall,PE11 1DQ,No,,"52.7885700,-0.1515850"
+Spennymoor,The Grand Electric Hall,DL16 6DJ,No,,"54.7001770,-1.5994180"
+St Albans,Waterend Barn,AL1 3LE,No,,"51.7526180,-0.3374700"
+St Anne's on Sea,The Trawl Boat Inn,FY8 1QR,No,,"53.7510640,-3.0298550"
+St Austell,The Rann Wartha,PL25 5EW,No,,"50.3386380,-4.7936640"
+St Helens,The Glass House,WA10 1NE,No,,"53.4513340,-2.7358610"
+St Helens,The Running Horses,WA10 1PY,No,,"53.4517960,-2.7396630"
+St Ives,The Hain Line,TR26 1SB,No,,"50.2117370,-5.4810520"
+St Neots,The Weeping Ash,PE19 1AE,No,,"52.2288480,-0.2691770"
+Stafford,The Butler's Bell,ST16 2NT,No,,"52.8084230,-2.1177910"
+Stafford,The Picture House,ST16 2HL,No,,"52.8041730,-2.1159840"
+Staines,The George,TW18 4EE,No,,"51.4338270,-0.5128590"
+Stalybridge,The Society Rooms,SK15 2JN,No,,"53.4812010,-2.0570410"
+Stamford,The Stamford Post,PE9 2QZ,No,,"52.6511940,-0.4808850"
+Stanmore,The Man in the Moon,HA7 4EB,No,,"51.6180470,-0.3113070"
+Stansted Airport,The Windmill,CM24 1QN,No,,"51.8881510,0.2583670"
+Stapleford,Admiral Sir John Borlase Warren,NG9 7AA,No,,"52.9292690,-1.2758000"
+Stevenage,The Standard Bearer,SG1 1PF,No,,"51.9010410,-0.2025710"
+Stevenage,The Standing Order,SG1 3AU,No,,"51.9121040,-0.2080320"
+Stirling,The Crossed Peels,FK8 1AT,No,,"56.1186590,-3.9388750"
+Stockport,The Calverts Court,SK1 1EB,No,,"53.4099390,-2.1578850"
+Stockton-on-Tees,The Highland Laddie,TS20 1AQ,No,,"54.5882440,-1.3110060"
+Stockton-on-Tees,The Thomas Sheraton,TS18 1BH,No,,"54.5616040,-1.3121040"
+Stoke Newington,The Rochester Castle,N16 0NY,No,,"51.5612690,-0.0741950"
+Stoke-on-Trent,The Wheatsheaf,ST4 1BU,No,,"53.0043840,-2.1858010"
+Stone,The Poste of Stone,ST15 8AB,No,,"52.9036320,-2.1485420"
+Stoneycroft,The Navigator,L13 5UH,No,,"53.4130450,-2.9042730"
+Stourbridge,The Chequers Inn,DY8 1EQ,No,,"52.4550440,-2.1439500"
+Stourbridge,The Edward Rutland,DY8 1DX,No,,"52.4559330,-2.1447030"
+Stourport-on-Severn,Ye Olde Crown Inn,DY13 8XB,No,,"52.3286390,-2.2855420"
+Stowmarket,The Willow Tree,IP14 1BB,No,,"52.1853830,0.9993920"
+Stratford,Goldengrove,E15 1NS,No,,"51.5442210,0.0040460"
+Stratford-upon-Avon,The Golden Bee,CV37 6EE,No,,"52.1916480,-1.7052750"
+Streatham,The Crown & Sceptre,SW2 4AH,No,,"51.4449900,-0.1249250"
+Streatham,The Holland Tringham,SW16 1HJ,No,,"51.4296600,-0.1301560"
+Street,The Lantokay,BA16 0EY,No,,"51.1258420,-2.7412480"
+Stretford,The Bishop Blaize,M32 0SF,No,,"53.4613880,-2.2886140"
+Stroud,The Lord John,GL5 3AB,No,,"51.7446410,-2.2179780"
+Sudbury,Grover & Allen,CO10 1RF,No,,"52.0403120,0.7308930"
+Sunderland,The Cooper Rose,SR1 3NG,No,,"54.9032460,-1.3879040"
+Sunderland,The Lambton Worm,SR1 3QA,No,,"54.9066380,-1.3741420"
+Sunderland,The William Jameson,SR1 1RH,No,,"54.9058720,-1.3812670"
+Surbiton,The Cap in Hand,KT6 5DE,No,,"51.3755770,-0.3044670"
+Surbiton,The Coronation Hall,KT6 4LQ,No,,"51.3936140,-0.3037150"
+Sutton,The Grapes,SM1 1NR,No,,"51.3659040,-0.1939090"
+Sutton,The Moon on the Hill,SM1 1DZ,No,,"51.3617020,-0.1931690"
+Sutton Coldfield,The Bishop Vesey,B73 5XA,No,,"52.5486200,-1.8409830"
+Sutton Coldfield,The Bottle of Sack,B72 1QG,No,,"52.5589830,-1.8268740"
+Sutton in Ashfield,The Picture House,NG17 1DA,No,,"53.1250050,-1.2601120"
+Swadlincote,The Sir Nigel Gresley,DE11 0AD,No,,"52.7734840,-1.5609460"
+Swansea,The Bank Statement,SA1 1EP,No,,"51.6191980,-3.9406130"
+Swansea,The Mardy Inn,SA4 4BR,No,,"51.6692020,-4.0384150"
+Swansea,The Red Lion,SA6 6JA,No,,"51.6686600,-3.9228860"
+Swindon,The Dockle Farmhouse,SN3 4PD,No,,"51.5734880,-1.7563980"
+Swindon,The Groves Company Inn,SN1 1RQ,No,,"51.5628020,-1.7865480"
+Swindon,The Savoy,SN1 1JL,No,,"51.5599630,-1.7827390"
+Swindon,The Sir Daniel Arms,SN1 1RQ,No,,"51.5628020,-1.7865480"
+Swords,The Old Borough,Swords,No,,"53.4557470,-6.2197410"
+Tamworth,The Bole Bridge,B79 7PA,No,,"52.6334230,-1.6916790"
+Tamworth,The Silk Kite,B79 7DF,No,,"52.6337490,-1.6959770"
+Taunton,The Coal Orchard,TA1 1UD,No,,"51.0188800,-3.1052030"
+Taunton,The Perkin Warbeck,TA1 3LP,No,,"51.0148130,-3.0997170"
+Tavistock,The Queen's Head Hotel,PL19 8AQ,No,,"50.5498810,-4.1465280"
+Teignmouth,The Jolie Brise,TQ14 8PE,No,,"50.5472110,-3.4942690"
+Telford,The Thomas Botfield,TF3 4BW,No,,"52.6756000,-2.4468020"
+Tewkesbury,The Royal Hop Pole,GL20 5RS,No,,"51.9919320,-2.1587690"
+Thetford,The Red Lion,IP24 2AL,No,,"52.4132360,0.7511480"
+Thirsk,The Three Tuns,YO7 1LH,No,,"54.2323320,-1.3417210"
+Thornton Heath,The Flora Sandes,CR7 7JG,No,,"51.3982170,-0.0996680"
+Tiverton,The White Ball Inn,EX16 5LY,No,,"50.9030550,-3.4909000"
+Todmorden,The White Hart,OL14 7BD,No,,"53.7141410,-2.0980840"
+Tonbridge,The Humphrey Bean,TN9 1AP,No,,"51.1950510,0.2742720"
+Tooting,J.J. Moon's,SW17 0RN,No,,"51.4273890,-0.1691890"
+Torquay,The Green Ginger,TQ2 5DZ,No,,"50.4621970,-3.5259520"
+Torquay,The London Inn,TQ1 2AA,No,,"50.4616420,-3.5243840"
+Tower Bridge (South),The Pommelers Rest,SE1 2UN,No,,"51.5024150,-0.0770800"
+Tower Hamlets,Goodman's Field,E1 8AN,No,,"51.5123160,-0.0726860"
+Tower of London,The Liberty Bounds,EC3N 4AA,No,,"51.5097450,-0.0787890"
+Tredegar,The Olympia,NP22 3ND,No,,"51.7706610,-3.2441560"
+Trowbridge,Sir Isaac Pitman,BA14 8AL,No,,"51.3196980,-2.2072880"
+Trowbridge,The Albany Palace,BA14 8AQ,No,,"51.3201500,-2.2059560"
+Truro,Try Dowr,TR1 2LW,No,,"50.2618560,-5.0502730"
+Tunbridge Wells,Opera House,TN1 1RT,No,,"51.1338070,0.2639860"
+Twickenham,The William Webb Ellis,TW1 3RR,No,,"51.4477900,-0.3284610"
+Upper Edmonton,The Gilpin's Bell,N18 2SS,No,,"51.6097560,-0.0659470"
+Urmston,The Tim Bobbin,M41 5AN,No,,"53.4480300,-2.3585980"
+Uttoxeter,The Old Swan,ST14 8HN,No,,"52.8978750,-1.8630930"
+Uxbridge,The Good Yarn,UB8 1JX,No,,"51.5477390,-0.4805340"
+Uxbridge,The White House,UB11 1AA,No,,"51.5123850,-0.4443710"
+Victoria,The Willow Walk,SW1V 1LW,No,,"51.4953390,-0.1424520"
+Victoria Station Concourse,Wetherspoons,SW1V 1JT,No,,"51.4949740,-0.1443540"
+Wakefield,The Six Chimneys,WF1 1HX,No,,"53.6824180,-1.4937640"
+Walkden,The Bull's Head,M28 3NJ,No,,"53.5241920,-2.4001630"
+Wallasey,The Clairville,CH45 4NW,No,,"53.4197400,-3.0475300"
+Wallington,The Whispering Moon,SM6 8QF,No,,"51.3602960,-0.1492280"
+Wallsend,The Ritz,NE28 8JD,No,,"54.9905160,-1.5371760"
+Walsall,St. Matthew's Hall,WS1 1SX,No,,"52.5854120,-1.9801500"
+Walsall,The Imperial,WS1 1DA,No,,"52.5855380,-1.9814630"
+Waltham Cross,The Moon and Cross,EN8 7BX,No,,"51.6852680,-0.0325530"
+Walton-on-Thames,The Regent,KT12 2QP,No,,"51.3870610,-0.4189320"
+Wanstead,The George,E11 2RL,No,,"51.5767010,0.0276860"
+Warminster,The Bath Arms,BA12 9AZ,No,,"51.2046940,-2.1794030"
+Warrington,The Friar Penketh,WA1 1EX,No,,"53.3875220,-2.5940710"
+Warrington,The Looking Glass,WA1 2LY,No,,"53.3895890,-2.5925210"
+Warwick,The Thomas Lloyd,CV34 4SA,No,,"52.2818650,-1.5901070"
+Washington,Sir William De Wessygnton,NE37 2SY,No,,"54.9126420,-1.5237500"
+Waterloo,The Queens Picture House,L22 5PE,No,,"53.4742210,-3.0278990"
+Waterlooville,The Denmead Queen,PO7 7EB,No,,"50.8806720,-1.0308620"
+Watford,Colombia Press,WD17 1AW,No,,"51.6584100,-0.4010350"
+Watford,The Moon Under Water,WD17 2BS,No,,"51.6560120,-0.3973320"
+Wath upon Dearne,The Church House,S63 7RZ,No,,"53.5025660,-1.3448280"
+Wednesbury,The Bellwether,WS10 9BZ,No,,"52.5537140,-2.0177580"
+Wednesfield,The Royal Tiger,WV11 1ST,No,,"52.6002090,-2.0823420"
+Welling,The New Cross Turnpike,DA16 3PB,No,,"51.4628150,0.1043630"
+Wellingborough,The Red Well,NN8 1BD,No,,"52.3018740,-0.6951720"
+Wellington,The William Withering,TF1 1LU,No,,"52.7006750,-2.5169800"
+Wells,The Quarter Jack,BA5 1SY,No,,"51.2070490,-2.6491050"
+Wembley,J.J. Moon's,HA9 6AA,No,,"51.5534230,-0.2922380"
+West Bromwich,The Billiard Hall,B70 7AB,No,,"52.5182590,-1.9957560"
+West End,The Lord Moon of the Mall,SW1A 2DY,No,,"51.5064600,-0.1275320"
+West End,The Montagu Pyke,WC2H 0DT,No,,"51.5139960,-0.1298320"
+West End,The Moon Under Water,WC2H 7LE,No,,"51.5106870,-0.1292900"
+West Kirby,The Dee Hotel,CH48 4EF,No,,"53.3726870,-3.1826910"
+Westhoughton,The Robert Shaw,BL5 3AN,No,,"53.5489290,-2.5211080"
+Weston-super-Mare,Cabot Court Hotel,BS23 2AH,No,,"51.3504460,-2.9819010"
+Weston-super-Mare,The Dragon Inn,BS23 1QG,No,,"51.3479700,-2.9780290"
+Weymouth,The Swan,DT4 8EH,No,,"50.6084310,-2.4548480"
+Weymouth,The William Henry,DT4 8HQ,No,,"50.6113010,-2.4545370"
+Whickham,The Harry Clasper,NE16 4HF,No,,"54.9444740,-1.6675390"
+Whitby,The Angel Hotel,YO21 1DH,No,,"54.4857280,-0.6142840"
+Whitehaven,The Bransty Arch,CA28 7XE,No,,"54.5511620,-3.5867830"
+Whitley Bay,The Fire Station,NE26 1AB,No,,"55.0429710,-1.4452740"
+Whitstable,The Peter Cushing,CT5 1DD,No,,"51.3565330,1.0240890"
+Whittlesey,The George Hotel,PE7 1AB,No,,"52.5560470,-0.1275480"
+Wick,The Alexander Bain,KW1 4LP,No,,"58.4422840,-3.0907820"
+Widnes,The Premier,WA8 6JS,No,,"53.3698010,-2.7250160"
+Wigan,The Brocket Arms,WN1 2DD,No,,"53.5570280,-2.6345000"
+Wigan,The Moon Under Water,WN1 1PE,No,,"53.5463040,-2.6313810"
+Wigston,The William Wygston,LE18 1DR,No,,"52.5869700,-1.1062490"
+Willenhall,The Malthouse,WV13 2BG,No,,"52.5833240,-2.0559360"
+Wilmslow,The Bollin Fee,SK9 1HE,No,,"53.3273970,-2.2294380"
+Wimbledon,The Wibbas Down Inn,SW19 1QT,No,,"51.4181600,-0.2021040"
+Wimborne,The Man in the Wall,BH21 1NF,No,,"50.8010890,-1.9882980"
+Winchester,The Old Gaolhouse,SO23 8RZ,No,,"51.0638620,-1.3163530"
+Windsor,The King and Castle,SL4 1PL,No,,"51.4837690,-0.6087660"
+Windsor,The Windlesora,SL4 1BB,No,,"51.4806170,-0.6106760"
+Winsford,The Queens Arms,CW7 1AT,No,,"53.1908820,-2.5312570"
+Wisbech,The Wheatsheaf Inn,PE13 1BL,No,,"52.6633920,0.1632900"
+Wishaw,The Wishaw Malt,ML2 7BL,No,,"55.7739920,-3.9189160"
+Witham,The Battesford Court,CM8 1AH,No,,"51.7990590,0.6387990"
+Witney,The Company of Weavers,OX28 6AD,No,,"51.7836720,-1.4847370"
+Woking,The Herbert Wells,GU21 5AJ,No,,"51.3201510,-0.5556580"
+Wokingham,The Gig House,RG40 2LD,No,,"51.4095960,-0.8359120"
+Wolverhampton,The Moon Under Water,WV1 1EQ,No,,"52.5868940,-2.1247660"
+Wombwell,The Horseshoe,S73 0AA,No,,"53.5222970,-1.3979940"
+Wood Green,Spouter's Corner,N22 6EJ,No,,"51.5969730,-0.1087090"
+Woolwich,The Great Harry,SE18 6PQ,No,,"51.4897580,0.0664500"
+Worcester,The Crown,WR1 3LL,No,,"52.1930550,-2.2224930"
+Worcester,The Postal Order,WR1 1DN,No,,"52.1956100,-2.2216280"
+Workington,The Henry Bessemer,CA14 2NA,No,,"54.6430290,-3.5484880"
+Worksop,The Liquorice Gardens,S80 2AS,No,,"53.3044500,-1.1229310"
+Worthing,The Sir Timothy Shelley,BN11 1EG,No,,"50.8124530,-0.3709440"
+Worthing,The Three Fishes,BN11 1BE,No,,"50.8131380,-0.3704100"
+Wrexham,The Elihu Yale,LL11 1RR,No,,"53.0472270,-2.9971370"
+Wrexham,The North and South Wales Bank,LL13 8HP,No,,"53.0452270,-2.9923630"
+Yardley,The William Tyler,B25 8UT,No,,"52.4680650,-1.8076820"
+Yate,Thorn's Farm,BS37 4BB,No,,"51.5392580,-2.4132600"
+Yeovil,The William Dampier,BA20 1LN,No,,"50.9414400,-2.6270650"
+York,The Postern Gate,YO1 9NX,No,,"53.9563910,-1.0777480"
+York,The Punch Bowl,YO24 1AU,No,,"53.9556260,-1.0906420"

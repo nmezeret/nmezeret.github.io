@@ -58,6 +58,7 @@
 	}
 
 	table#visited, table#yetto{
+		-webkit-overflow: scroll;
 		overflow: scroll;
 		float:left;
 		width: 50%;
@@ -73,6 +74,7 @@
 	td {
 		padding-bottom: 2%;
 		border-bottom: #EEEEEE 2px solid;
+
 	}
 
 	th {
@@ -194,6 +196,16 @@
 				}	
 			}
 
+			for(i=0;i<yet.length;i++) {
+				$("#yetto").append("<tr><td><p>"+yet[i].Name+"</p><p class='soft'>"+yet[i].Location+"</p></td></tr>")
+
+				if (yet[i].Latloc){
+					var marker = L.marker([yet[i].Latloc.split(",")[0], yet[i].Latloc.split(",")[1]], {icon: redIcon, opacity: 0.5}).addTo(map);
+					marker.bindPopup("<b>"+yet[i].Name+"</b> - "+yet[i].Location+"<br>Not Yet Visited");
+				}
+
+			}
+
 			for(i=0;i<vis.length;i++) {
 				if (vis[i].Date!="Pre-challenge"){
 					var snappy = String(vis[i].Postcode + ".jpg");
@@ -210,20 +222,7 @@
 				}
 			}
 
-
-
-			for(i=0;i<yet.length;i++) {
-				$("#yetto").append("<tr><td><p>"+yet[i].Name+"</p><p class='soft'>"+yet[i].Location+"</p></td></tr>")
-
-				if (yet[i].Latloc){
-					var marker = L.marker([yet[i].Latloc.split(",")[0], yet[i].Latloc.split(",")[1]], {icon: redIcon}).addTo(map);
-					marker.bindPopup("<b>"+yet[i].Name+"</b> - "+yet[i].Location+"<br>Not Yet Visited");
-				}
-
-			}
-
 			$('#headers').append("<br><br><br>"+(vis.length*100/yet.length).toFixed(2)+"% of Wetherspoons visited.");
-
 		});
 
 		$('#span1').on('click', change_visited);
