@@ -221,7 +221,7 @@
 					var marker = L.marker([lat, lon], {icon: redIcon, opacity: 0.5}).addTo(map);
 					marker.bindPopup("<b>"+yet[i].Name+"</b> - "+yet[i].Location+"<br>Not Yet Visited");
 				}
-				userLatitude = getUserLocation()
+				userLatitude = getUserLocation()[0]
 				userLongitude = getUserLocation()[1]
 				if (typeof userLatitude !== "undefined") {
 					console.log("broogs");
