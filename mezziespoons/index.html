@@ -155,12 +155,14 @@
 		  function success(position) {
 		    userLatitude  = position.coords.latitude;
 		    userLongitude = position.coords.longitude;
+		    return [userLatitude, userLongitude]
 		  };
 		navigator.geolocation.getCurrentPosition(success);
 		};
 
 		if (navigator.geolocation) {
 		    getUserLocation();
+		    console.log("broogs");
 		};
 
 		map = L.map('map').setView([53.5, -4], 6);
@@ -219,8 +221,10 @@
 					var marker = L.marker([lat, lon], {icon: redIcon, opacity: 0.5}).addTo(map);
 					marker.bindPopup("<b>"+yet[i].Name+"</b> - "+yet[i].Location+"<br>Not Yet Visited");
 				}
-
+				userLatitude = getUserLocation()
+				userLongitude = getUserLocation()[1]
 				if (typeof userLatitude !== "undefined") {
+					console.log("broogs");
 				    var R = 6371; // radius of the earth in km
 				    var concertLat = lat * Math.PI / 180; // * Math.Pi / 180 converts the degrees to radians
 				    var userLat = userLatitude * Math.PI / 180;

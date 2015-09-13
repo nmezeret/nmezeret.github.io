@@ -392,13 +392,11 @@ $(document).ready(function() {
       function success(position) {
         userLatitude  = position.coords.latitude;
         userLongitude = position.coords.longitude;
-        console.log(userLatitude);
       };
     navigator.geolocation.getCurrentPosition(success);
     };
 
     if (navigator.geolocation) {
-        console.log("broogs");
         getUserLocation();
     };
 
