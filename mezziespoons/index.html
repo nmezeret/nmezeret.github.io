@@ -127,6 +127,10 @@
 			
 
 		</table>
+		
+		<p id="closeSpoons"></p>
+		<ul id="closePubs"></ul>
+
 		<table id="yetto">
 			
 
@@ -143,11 +147,21 @@
 	        $("#visited").delay(1200).fadeIn(1200);
 	        $("html").off();
 	        $("#map").delay(1200).animate({opacity: 1},1200);
-
-
-	        
- 
 		});
+
+		/*This gets the user location, to be used later on*/
+		function getUserLocation() {
+
+		  function success(position) {
+		    userLatitude  = position.coords.latitude;
+		    userLongitude = position.coords.longitude;
+		  };
+		navigator.geolocation.getCurrentPosition(success);
+		};
+
+		if (navigator.geolocation) {
+		    getUserLocation();
+		};
 
 		map = L.map('map').setView([53.5, -4], 6);
 
@@ -198,10 +212,35 @@
 
 			for(i=0;i<yet.length;i++) {
 				$("#yetto").append("<tr><td><p>"+yet[i].Name+"</p><p class='soft'>"+yet[i].Location+"</p></td></tr>")
+				lat = yet[i].Latloc.split(",")[0];
+				lon = yet[i].Latloc.split(",")[1];
 
 				if (yet[i].Latloc){
-					var marker = L.marker([yet[i].Latloc.split(",")[0], yet[i].Latloc.split(",")[1]], {icon: redIcon, opacity: 0.5}).addTo(map);
+					var marker = L.marker([lat, lon], {icon: redIcon, opacity: 0.5}).addTo(map);
 					marker.bindPopup("<b>"+yet[i].Name+"</b> - "+yet[i].Location+"<br>Not Yet Visited");
+				}
+
+				if (typeof userLatitude !== "undefined") {
+				    var R = 6371; // radius of the earth in km
+				    var concertLat = lat * Math.PI / 180; // * Math.Pi / 180 converts the degrees to radians
+				    var userLat = userLatitude * Math.PI / 180;
+				    var latDiff = (userLatitude-lat) * Math.PI / 180;
+				    var lonDiff = (userLongitude-lon) * Math.PI / 180;
+				    var a = Math.sin(latDiff/2) * Math.sin(latDiff/2) +
+				            Math.cos(concertLat) * Math.cos(userLat) *
+				            Math.sin(lonDiff/2) * Math.sin(lonDiff/2);
+				    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+				    var d = R * c;
+
+				    if (d<10) {
+				        $('#closeSpoons').html("Near you:");
+				        $('#closeShows').append("<p>"+yet[i].Name+"</p><p class='soft'>"+yet[i].Location+"</p>");
+				    }
+				    var circle = L.circle([userLatitude, userLongitude], 16093, {
+				        color: '#FFCC00',
+				        fillColor: '#FFCC00',
+				        fillOpacity: 0.5
+				    }).addTo(map);
 				}
 
 			}
