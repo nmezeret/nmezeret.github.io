@@ -252,8 +252,7 @@
 					    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 					    var d = R * c;
 
-					    if (d<13) {
-					    	console.log("rummble")
+					    if (d<5) {
 					        $('#closeSpoons').html("Near you:");
 					        $('#closePubs').append("<li><p>"+yet[i].Name+"</p><p class='soft'>"+yet[i].Location+"</p></li>");
 					    }
@@ -262,7 +261,7 @@
 					        fill: 'none',
 					        fillOpacity: 0
 					    }
-					    var circle = L.circle([userLatitude, userLongitude], 12854, circle_options).addTo(map);
+					    var circle = L.circle([userLatitude, userLongitude], 5000, circle_options).addTo(map);
 					}
 
 				}
@@ -283,7 +282,7 @@
 					}
 				}
 
-				$('#headers').append("<br><br><br>"+(vis.length*100/yet.length).toFixed(2)+"% of Wetherspoons visited.");
+				$('#headers').append("<br><br><br>"+(vis.length*100/yet.length).toFixed(2)+"% of Wetherspoons visited. ("+ vis.length + "out of " + yet.length + ")");
 			});
 		}
 		$('#span1').on('click', change_visited);
