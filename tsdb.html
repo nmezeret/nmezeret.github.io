@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" height="100%">
+<head>
+	<meta charset="UTF-8">
+	<title>XDEV2</title>
+</head>
+
+<style>
+html {
+  height: 100%;
+}
+#html-body {
+  height: 100%;
+}
+#container-wrap-wrap {
+  height: 100%;
+}
+#container-wrap {
+  height: 100%;
+}
+#container {
+  height: 100%;
+}
+#content-wrap {
+  height: 100%;
+}
+#main-content {
+  height: 100%;
+}
+#page-content {
+  height: 100%;
+}
+	iframe {
+		width: 166%;
+		height: 800px;
+		transform: scale(0.6);
+		transform-origin: 0 0;
+		border:none;
+	}
+
+	#ero {
+		width: 50%;
+		height:50%;
+		float: left;
+	}
+
+
+	#lbr {
+		width: 50%;
+		height:50%;
+		float:right;
+	}
+
+	#rally {
+		clear:both;
+		width:100%;
+		position: absolute;
+		top: 50%;
+	}
+
+	#rallyFrame {
+		width:100%;
+		height:600px;
+		transform: scale(1);
+		transform-origin: 0 0;
+	}
+
+</style>
+
+<body>
+	<div id='ero'>
+    	<iframe src="http://xmxmws.sportex.com/tsdb/"></iframe>
+    </div>
+    <div id = 'lbr'>
+   		<iframe src="http://xmxmws.sportex.com/tsdbLbr/"></iframe>
+    </div>
+    <div id = 'rally'>
+   		<iframe id='rallyFrame' src="http://xmxmws.sportex.com/rally/index.php"></iframe>
+    </div>
+</body>
+
+</html>
